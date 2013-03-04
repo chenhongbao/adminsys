@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+           version="2.5">
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+        <welcome-file>register.jsp</welcome-file>
+        <welcome-file>index.htm</welcome-file>
+    </welcome-file-list>
+
+    <servlet>
+        <servlet-name>Register</servlet-name>
+        <servlet-class>chb.client.Register</servlet-class>
+        <init-param>
+            <param-name>path.datasource.config</param-name>
+            <param-value>xml\datasource.config.xml</param-value>
+        </init-param>
+        <init-param>
+            <param-name>path.register.error.log</param-name>
+            <param-value>log\register.error.log</param-value>
+        </init-param>
+        <init-param>
+            <param-name>path.register.data.log</param-name>
+            <param-value>log\register.data.log</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Register</servlet-name>
+         <url-pattern>/register.se</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Upload</servlet-name>
+        <servlet-class>chb.client.Upload</servlet-class>
+        <init-param>
+            <param-name>path.upload.error.log</param-name>
+            <param-value>log\upload.error.log</param-value>
+        </init-param>
+        <init-param>
+            <param-name>path.upload.config</param-name>
+            <param-value>xml\upload.config.xml</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Upload</servlet-name>
+        <url-pattern>/upload.se</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>chb.client.Login</servlet-class>
+        <init-param>
+            <param-name>path.login.error.log</param-name>
+            <param-value>log\login.error.log</param-value>
+        </init-param>
+        <init-param>
+            <param-name>path.datasource.config</param-name>
+            <param-value>xml\datasource.config.xml</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/login.se</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Review</servlet-name>
+        <servlet-class>chb.client.Review</servlet-class>
+        <init-param>
+            <param-name>path.datasource.config</param-name>
+            <param-value>xml\datasource.config.xml</param-value>
+        </init-param>
+        <init-param>
+            <param-name>path.review.error.log</param-name>
+            <param-value>log\review.error.log</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Review</servlet-name>
+        <url-pattern>/review.se</url-pattern>
+    </servlet-mapping>
+
+</web-app>

@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <title>西安交通大学软件学院招生系统</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/reset_style.css" type="text/css">
+</head>
+<script type="text/javascript" src="js/function.js"></script>
+<body>
+
+<div style="background-color: #cedbe4; width: 160px;">
+    <div style="background-color: #FFFFFF;">
+    <img src="img/login1.png" alt="登录系统" title="登录系统" />
+    </div>
+<form name="login_all" method="post" action="login.se" id="form1">
+     <table style="width: 140px; border: 0px; padding: 0px; margin: 0px;">
+         <tbody>
+         <tr>
+             <td align="right" style="width: 40px;"><span id="identityLabel">证件号</span></td>
+             <td align="left" colspan="2">
+                 <input name="identityNo" value="" id="identityNo" type="text" style="width: 100%;"/>
+             </td>
+         </tr>
+         <tr>
+             <td align="right"><span id="pwdLabel">密&nbsp;&nbsp;码</span></td>
+             <td align="left" colspan="2">
+                 <input name="pwd" value="" id="pwd" type="password" style="width: 100%;" />
+             </td>
+         </tr>
+        <tr>
+            <td align="right"><span id="checkLabel">验证码</span></td>
+
+            <td align="left">
+                <span id="checkLeft" style="width: 100%;">0.0+0.0=</span>
+            </td>
+            <td align="left">
+                 <input name="checkRight" value="" id="checkRight" type="text"
+                        onclick="generateCheckCode(document.getElementById('checkLeft'))"
+                        onchange="checkCode(this);" style="width: 100%;"/>
+            </td>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+    <input type="hidden" id="operation" name="operation" value="" />
+    <table align="center">
+        <script type="text/javascript">
+             function setLoginOperation(c) {
+                 var operation = document.getElementById("operation");
+                 if(!operation) {
+                     alert("页面错误，请联系管理员。");
+                     return false;
+                 }
+                 if(c.value && c.value == "登陆") {
+                     operation.value = "login";
+                     return true;
+                 } else if(c.value && c.value == "注册") {
+                     operation.value = "register";
+                     return true;
+                 }
+
+                 alert("页面错误，请联系管理员。");
+                 return false;
+             }
+             /**
+              * Check whether all data is ready.
+              * @param x <input type="submit" /> tag
+              * @return {boolean}
+              */
+            function canSubmit(x) {
+                setLoginOperation(x);
+                var e = document.getElementById("checkRight");
+                if(!e) {
+                    return false;
+                }
+                if(!checkCode(e)) {
+                    alert("请填写正确的验证码（"+CheckCode.toFixed(1)+"）。");
+                    document.getElementById("checkRight").focus();
+                    return false;
+                }
+
+                 var i = document.getElementById('identityNo');
+                 if(!i) {
+                     return false;
+                 }
+                 if(i.value.length < 1) {
+                     alert("请填写身份证。");
+                     return false;
+                 }
+
+                var p = document.getElementById('pwd');
+                if(!p) {
+                    return false;
+                }
+                if(p.value.length < 1) {
+                    alert("请填写密码。");
+                    return false;
+                }
+
+                return true;
+            }
+        </script>
+        <tbody>
+        <tr>
+            <td><input name="login" value="登陆" onclick="return canSubmit(this);"
+                       id="login" type="submit"></td>
+            <td><input name="register" value="注册" onclick="return setLoginOperation(this);"
+                       id="register" type="submit"></td>
+            <td><a href="findpwd.jsp">找回密码</a></td>
+        </tr>
+        </tbody>
+    </table>
+</form>
+</div>
+
+</body>
+</html>

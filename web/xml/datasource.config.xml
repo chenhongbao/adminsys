@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <!--
+        Please redeploy this file to other places on the disk that
+        is not accessible to the HTTP server in case of hackers' attack.
+        You just need to configure the register.path.config in the web.xml
+        file to point to that place.
+        -->
+<config>
+    <datasource>
+        <header value="jdbc:mysql:"/>
+        <address value="localhost"/>
+        <port value="3306"/>
+        <database value="adminsys"/>
+        <!--
+            user                用户名
+            password            密码
+            autoReconnect       联机失败，是否重新联机（true/false）
+            maxReconnect        尝试重新联机次数
+            initialTimeout      尝试重新联机间隔
+            maxRows             传回最大行数
+            useUnicode          是否使用Unicode字体编码（true/false）
+            characterEncoding   何种编码（GB2312/UTF-8/…）
+            relaxAutocommit     是否自动提交（true/false）
+            capitalizeTypeNames 数据定义的名称以大写表示
+
+        -->
+
+        <param name="user" value="microcore" />
+        <param name="password" value="19871013" />
+        <param name="useUnicode" value="true" />
+        <param name="characterEncoding" value="utf-8" />
+    </datasource>
+</config>

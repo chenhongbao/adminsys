@@ -1,0 +1,141 @@
+* {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+body {
+    font: 11px "宋体", "华文宋体",Verdana, Arial,sans-serif;
+    padding: 0 20px;
+    color: #333;
+    background-color: #FFFFFF;
+
+}
+
+html, body {
+
+    SCROLLBAR-FACE-COLOR: #b2b2b2;
+    SCROLLBAR-HIGHLIGHT-COLOR: #C5D5D0;
+    SCROLLBAR-SHADOW-COLOR: #7b7b7b;
+    SCROLLBAR-3DLIGHT-COLOR: #808080;
+    SCROLLBAR-ARROW-COLOR: #ffffff;
+    SCROLLBAR-TRACK-COLOR: #ebebeb;
+    SCROLLBAR-DARKSHADOW-COLOR: #fbfbfb;
+}
+
+frameset body {
+    padding: 0;
+}
+
+td, th {
+    font-size: 11px;
+}
+
+a:link {
+    color: #579435;
+    TEXT-DECORATION: none;
+}
+
+a:visited {
+    color: #579435;
+    TEXT-DECORATION: none;
+}
+
+a:hover {
+    color: #FF7800;
+    TEXT-DECORATION: none;
+}
+
+a:active {
+    color: #FF7800;
+    TEXT-DECORATION: none;
+}
+
+
+* html input {
+    zoom: expression(function(ele){ ele.style.zoom = "1"; (ele.className)?ele.className+=" "+ele.type:ele.className=ele.type;}(this));
+}
+
+input[type="text"], input[type="file"], input[type="password"], textarea {
+    padding: 2px 5px;
+    border: 1px solid;
+    border-color: #808080 #FFF #FFF #7b7b7b;
+    background: #dedede;
+    font-size: 11px;
+    vertical-align: middle;
+}
+
+
+input[type="button"], input[type="submit"], input[type="reset"], button {
+    border-left: 1px solid #FFF;
+    border-right: 1px solid #808080;
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #808080;
+    padding: 2px 5px;
+    background: #dedede;
+    font-weight: bold;
+    font-size: 11px;
+    vertical-align: middle;
+    color: #333;
+}
+
+select {
+    border: 1px solid;
+    border-color: #808080 #FFF #FFF #7b7b7b;
+    background: #dedede;
+    font-size: 11px;
+    vertical-align: middle;
+    color: #333;
+}
+
+hr {
+    color: #b2b2b2;
+    height: 0;
+    border: 0;
+    border-top: 2px solid #b2b2b2;
+    margin: 1em 0;
+}
+
+table.data1 {
+    table-layout: auto;
+    width: 90%;
+    border: 2px solid #b2b2b2;
+}
+
+table.data1 td {
+    border: 1px solid #b2b2b2;
+}
+
+table.data1 th {
+    font-weight: bold;
+    background: #dedede;
+    color: #6f6f6f;
+    text-align: left;
+}
+
+/* for IE6 */
+* html input.text,
+* html input.password,
+* html textarea {
+    padding: 2px 5px;
+    border: 1px solid;
+    border-color: #808080 #FFF #FFF #7b7b7b;
+    background: #dedede;
+    font-size: 11px;
+    vertical-align: middle;
+}
+
+* html input.button,
+* html input.submit,
+* html input.reset,
+* html button {
+    padding: 2px 5px;
+    border: 1px solid;
+    border-color: #FFF #808080 #7b7b7b #FFF;
+    background: #dedede;
+    font-weight: bold;
+    font-size: 11px;
+    vertical-align: middle;
+    color: #333;
+}
+

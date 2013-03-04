@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+Please redeploy this file to other places on the disk that
+is not accessible to the HTTP server in case of hackers' attack.
+You just need to configure the register.path.config in the web.xml
+file to point to that place.
+-->
+<config>
+    <upload>
+        <!-- Counted in bytes -->
+        <maxMemorySize value="104857600" />
+        <maxFileSize value="5242880" />
+        <tempDiretory value="\tmp" />
+        <photoDirectory value="\upload\photo" />
+        <zipDirectory value="\upload\zip" />
+    </upload>
+</config>
