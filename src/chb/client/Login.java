@@ -40,14 +40,16 @@ public class Login extends AServlet{
                RequestDispatcher dispatcher = req.getRequestDispatcher("/review.se");
                dispatcher.forward(req, resp);
            }else {
-               RequestDispatcher dispatcher = req.getRequestDispatcher("/login.html");
+               RequestDispatcher dispatcher = req.getRequestDispatcher("/index.html");
                dispatcher.forward(req, resp);
            }
         } else if (oper.equals("register")) {
             /**
              * If the user clicks the register button, goes to register page.
+             * <strong>NOTE:</strong>
+             * Give top = 1, will show the top banner, other value will hid the banner.
              */
-            RequestDispatcher dispatcher = req.getRequestDispatcher("/register.jsp");
+            RequestDispatcher dispatcher = req.getRequestDispatcher("/register.jsp?top=1");
             dispatcher.forward(req, resp);
         } else {
             /**

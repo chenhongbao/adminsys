@@ -87,7 +87,7 @@ public class Register extends AServlet {
         /**
          * After user has registered, he or she can choose to upload something.
          */
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/upload.jsp");
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/upload.jsp?top=1");
         dispatcher.forward(req, resp);
     }
 

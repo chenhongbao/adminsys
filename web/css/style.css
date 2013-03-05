@@ -140,3 +140,29 @@ table.data1 th {
 }
 
 
+
+.news_title {
+    color: #000066;
+    font-size: 20px;
+    font-weight: bolder;
+    line-height: normal;
+    margin: 20px 0 10px;
+    text-align: center;
+    text-indent: 24px;
+}
+
+.news_signature {
+    font-size: 12px;
+    line-height: 22px;
+    text-indent: 24px;
+    color: #333333;
+}
+
+.news_text {
+    color: #333333;
+    font-size: 12px;
+    line-height: 22px;
+    text-indent: 24px;
+}
+
+

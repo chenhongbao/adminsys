@@ -13,10 +13,15 @@
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/reset_style.css" type="text/css">
 </head>
-<body>
+<body style="padding: 0px;">
 
-<table>
+<table style="width: 400px;">
     <tbody>
+    <tr>
+        <td align="left" colspan="3">
+             <img src="img/news_title.png" alt="招生动态" title="招生动态"/>
+        </td>
+    </tr>
 <%
 if(request.getAttribute("newsList") != null) {
     List<NewsLead> list = (List<NewsLead>)request.getAttribute("newsList");
@@ -24,8 +29,8 @@ if(request.getAttribute("newsList") != null) {
         NewsLead lead = list.get(i);
 %>
 <tr>
-    <td align="left" style="width: 60%;">
-        <span><a href="<%= "news.se?"+"title="+URLEncoder.encode(lead.getTitle(),"UTF-8")%>">
+    <td align="left" style="width: 50%;">
+        <span><a target="_blank" href="<%= "news.se?"+"title="+URLEncoder.encode(lead.getTitle(),"UTF-8")%>">
             <%= lead.getTitle()%></a></span>
     </td>
     <td align="left">
@@ -39,7 +44,30 @@ if(request.getAttribute("newsList") != null) {
     }
 }
 %>
+<%
+String num = (String)request.getAttribute("num");
+if( num != null && num.equals("-1") == false) {
+%>
+    <tr>
+        <td style="height: 10px;"></td>
+        <td></td>
+        <td></td>
+    </tr>
     </tbody>
+    <tfoot>
+        <tr>
+            <td></td>
+            <td></td>
+            <td align="right">
+                <div>
+                    <a target="_blank" style="color: #a52a2a" href="news.se?num=-1">更多>></a>
+                </div>
+            </td>
+        </tr>
+    </tfoot>
+<%
+}
+%>
 </table>
 
 </body>

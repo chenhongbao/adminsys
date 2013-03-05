@@ -55,7 +55,7 @@ public class Review extends AServlet{
          */
         req.setAttribute("userInfo", m);
         req.setAttribute("applicationInfo", m2);
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/register.jsp");
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/register.jsp?top=1");
         dispatcher.forward(req, resp);
     }
 }

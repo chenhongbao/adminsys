@@ -16,11 +16,13 @@
     <script src="js/function.js" type="text/javascript"></script>
 
     <script type="text/javascript">
+        var userInfo = null;
+        var infoNames = null;
         <%
           if(request.getAttribute("userInfo") != null) {
           %>
 
-        var userInfo = {
+        userInfo = {
             <%
             Map<String, String> m =(Map<String, String>)request.getAttribute("userInfo");
             Set<Map.Entry<String, String>> s = m.entrySet();
@@ -39,7 +41,7 @@
         <%
         it = s.iterator();
         %>
-        var infoNames = [
+        infoNames = [
         <%
         while (it.hasNext()) {
         Map.Entry<String, String> e = it.next();
@@ -55,18 +57,31 @@
         %>
 
         /* First element is status, second element is updateTime. */
-        var applicationInfo = [
+
 <%
 if(request.getAttribute("applicationInfo") != null) {
     Map<String, String> m2 = (Map<String, String>)request.getAttribute("applicationInfo");
+    out.print("var applicationInfo = [");
     out.print("\""+ m2.get("status") +"\"");
     out.print(",");
-    out.print("\""+ m2.get("updateTime") +"\"");
+    out.print("\""+ m2.get("updateTime") +"\"];");
 }
 %>
-        ];
 
     </script>
+
+    <style type="text/css">
+        body {
+            text-align: center;
+        }
+        .register {
+            width: 740px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: left;
+        }
+    </style>
+
 </head>
 <body>
 
@@ -123,6 +138,15 @@ if(request.getAttribute("applicationInfo") != null) {
                     }
                     if(elem.getAttribute("name") == "identityNo") {
                         elem.setAttribute("disabled", "disabled");
+                        // Add a hidden input to pass the identityNo
+                        var form = document.getElementById("form1");
+                        if(form) {
+                            var n = document.createElement("input");
+                            n.setAttribute("type", "hidden");
+                            n.setAttribute("value", elem.value);
+                            n.setAttribute("name", "identityNo");
+                            form.appendChild(n);
+                        }
                     }
                 } else if(elem.tagName.toUpperCase() == "TEXTAREA") {
                     elem.value = value;
@@ -142,8 +166,42 @@ if(request.getAttribute("applicationInfo") != null) {
     }
 
 </script>
+<!-- Give '?top=1', will show the top banner, other value will hid the banner. -->
+<%
+    if(request.getParameter("top")!=null && request.getParameter("top").equals("1")) {
+%>
 
-<div id="systemInfo">
+<table style="width: 100%; border: 0px; padding: 0px; margin: 0px;">
+    <tr>
+        <td align="center">
+            <div style="width: 760px; overflow: hidden;">
+                <img style="float: left;" src="img/xjtuse_adsys.png" alt="西安交通大学招生系统" title="西安交通大学招生系统"/>
+
+                <div style="width: 353px; height: 25px; float: left;"></div>
+                <div style="width: 240px; height: 13px; float: left;"></div>
+                <div style="width: 100px; height: 13px; float: left;">
+                    <a style="font-size: 13px;color: #333333;"
+                       href="javascript:window.external.AddFavorite('http://se.xjtu.edu.cn','西安交通大学软件学院')"
+                       target="_top">加入收藏&nbsp;|</a>
+                    <a style="font-size: 13px;color: #333333;" href="#">管理入口</a>
+                </div>
+            </div>
+        </td>
+    </tr>
+    <tr align="center">
+        <td>
+            <div style="overflow: hidden;">
+                <img src="img/top_1.png"/>
+            </div>
+        </td>
+    </tr>
+</table>
+
+<%
+}
+%>
+
+<div id="systemInfo" class="register">
     <br>
     <!-- This span is preserved for notice. -->
     <fieldset style="border-color: #8b0000;">
@@ -156,7 +214,7 @@ if(request.getAttribute("applicationInfo") != null) {
 <form name="register_all" method="post" action="register.se" id="form1">
 <br>
 
-<div id="personalInfoPanel">
+<div id="personalInfoPanel" class="register">
     <fieldset>
         <legend>
             个人信息
@@ -274,7 +332,7 @@ if(request.getAttribute("applicationInfo") != null) {
 </div>
 <br>
 
-<div id="communicationInfoPanel">
+<div id="communicationInfoPanel" class="register">
     <fieldset>
         <legend>
             联系方式
@@ -331,7 +389,7 @@ if(request.getAttribute("applicationInfo") != null) {
 </div>
 <br>
 
-<div id="otherInfoPanel">
+<div id="otherInfoPanel" class="register">
     <fieldset>
         <legend>
             其他信息
@@ -394,7 +452,7 @@ if(request.getAttribute("applicationInfo") != null) {
 <div>
 <br>
 
-<div id="firstChoiceCollegePanel">
+<div id="firstChoiceCollegePanel" class="register">
     <fieldset>
         <legend>
             报考院校信息
@@ -443,7 +501,7 @@ if(request.getAttribute("applicationInfo") != null) {
 </div>
 <br>
 
-<div id="firstChoiceSpecialityPanel">
+<div id="firstChoiceSpecialityPanel" class="register">
     <fieldset>
         <legend>
             报考专业信息
@@ -493,7 +551,7 @@ if(request.getAttribute("applicationInfo") != null) {
 </div>
 <br>
 
-<div id="examResultPanel">
+<div id="examResultPanel" class="register">
     <fieldset>
         <legend>
             考研成绩
@@ -583,7 +641,7 @@ if(request.getAttribute("applicationInfo") != null) {
 </div>
 <br>
 
-<div id="bachelorPanel">
+<div id="bachelorPanel" class="register">
     <fieldset>
         <legend>
             本科信息
@@ -653,7 +711,7 @@ if(request.getAttribute("applicationInfo") != null) {
 </div>
 <br>
 
-<div id="specialityPanel">
+<div id="specialityPanel" class="register">
     <fieldset>
         <legend>
             申请专业方向
@@ -781,7 +839,7 @@ if(request.getAttribute("applicationInfo") != null) {
 
 <br>
 
-<table align="center">
+<table align="center" style="width: 100%;">
     <tbody>
     <tr>
         <td><input value="完成注册" name="finish" id="finish"
@@ -794,6 +852,7 @@ if(request.getAttribute("applicationInfo") != null) {
 
 </div>
 </form>
+
 
 
 </body>

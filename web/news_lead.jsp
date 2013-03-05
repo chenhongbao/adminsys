@@ -19,12 +19,12 @@
     <tbody>
     <tr>
         <td class="text" valign="middle"style="width: 100%;">
-            <div class="title"><%= lead.getTitle()%></div>
+            <div class="news_title"><%= lead.getTitle()%></div>
             <hr width="100%" size="1" noshade="" color="#999999" align="CENTER" />
             <p align="center">
-                <span class="style2">发表时间：<%= lead.getCreateTime()%>&nbsp;修改时间：<%= lead.getUpdateTime()%>&nbsp;作者：<%= lead.getAuthorName()%></span>
+                <span class="news_signature">发表时间：<%= lead.getCreateTime()%>&nbsp;修改时间：<%= lead.getUpdateTime()%>&nbsp;作者：<%= lead.getAuthorName()%></span>
             </p>
-            <p><%= lead.getContent()%></p>
+            <p class="news_text"><%= lead.getContent()%></p>
         </td>
     </tr>
     </tbody>

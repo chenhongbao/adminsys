@@ -129,6 +129,9 @@ public class News extends AServlet {
          * Limit the number of the returned news leads.
          */
         if (num >= 0) {
+            if(num > list.size()) {
+                num = list.size();
+            }
             list = list.subList(0, num);
         }
 
@@ -138,6 +141,7 @@ public class News extends AServlet {
         Collections.sort(list, new ComparatorNewsByUpdateTime());
 
         request.setAttribute("newsList", list);
+        request.setAttribute("num", String.valueOf(num));
         RequestDispatcher dispatcher = request.getRequestDispatcher("/news_list.jsp");
         dispatcher.forward(request, response);
 
