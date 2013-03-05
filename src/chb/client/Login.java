@@ -129,8 +129,6 @@ public class Login extends AServlet{
         conn += "/" + getSingleValueFromXML(xpath, "//datasource/database/@value", doc);
         conn += "?" + getPairValueFromXML(xpath, "//datasource/param", doc);
 
-        System.out.print(conn);
-
         return conn;
     }
 

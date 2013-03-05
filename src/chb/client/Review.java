@@ -33,11 +33,12 @@ public class Review extends AServlet{
          * Query information returned in the form of string-to-string map.
          */
         Map<String, String> m =proxy.queryInfo(this.identityNo);
+        Map<String, String> m2 = proxy.queryAppInfo(this.identityNo);
 
         /**
          * If it returns null, report error.
          */
-        if(m == null) {
+        if(m == null || m2 == null) {
             LoggingProxy logger = new LoggingProxy(epath);
             logger.log(LoggingProxy.ERROR, "[" + this.identityNo +"]Review error. "
                     + "Database query error, return null.");
@@ -53,6 +54,7 @@ public class Review extends AServlet{
          * Forward request to register_frozen.jsp.
          */
         req.setAttribute("userInfo", m);
+        req.setAttribute("applicationInfo", m2);
         RequestDispatcher dispatcher = req.getRequestDispatcher("/register.jsp");
         dispatcher.forward(req, resp);
     }

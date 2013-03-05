@@ -10,8 +10,8 @@ file to point to that place.
         <!-- Counted in bytes -->
         <maxMemorySize value="104857600" />
         <maxFileSize value="5242880" />
-        <tempDiretory value="\tmp" />
-        <photoDirectory value="\upload\photo" />
-        <zipDirectory value="\upload\zip" />
+        <tempDiretory value="/tmp" />
+        <photoDirectory value="/upload/photo" />
+        <zipDirectory value="/upload/zip" />
     </upload>
 </config>

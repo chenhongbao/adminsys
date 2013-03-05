@@ -55,7 +55,8 @@ function checkInputField() {
     var valid = true;
     var list = document.getElementsByTagName("input");
     for (var i = 0; i < list.length; i = i + 1) {
-        if (list.item(i).type != "text") {
+        if (list.item(i).type.toLocaleUpperCase() != "TEXT"
+            && list.item(i).type.toLocaleUpperCase() != "PASSWORD") {
             continue;
         }
 

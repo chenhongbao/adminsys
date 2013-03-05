@@ -19,7 +19,6 @@ public class ReviewProxy extends DataProxy{
      * Identity card number.
      */
     protected String identityNo = "";
-    protected Map<String, String> result = null;
 
     public ReviewProxy() { }
 
@@ -60,7 +59,7 @@ public class ReviewProxy extends DataProxy{
         }
 
         this.identityNo = idNo;
-        this.result = new HashMap<String, String>();
+        Map<String, String> result = new HashMap<String, String>();
 
         String query = buildQueryString();
         String url = buildConnectionString();
@@ -76,6 +75,13 @@ public class ReviewProxy extends DataProxy{
                 while (it.hasNext()) {
                     String field = it.next();
                     String value = set.getString(field);
+                    /**
+                     * createTime and updateTime in the table register_info
+                     * should be hidden from users.
+                     */
+                    if(field.endsWith("createTime") || field.endsWith("updateTime")) {
+                        continue;
+                    }
                     result.put(field, value);
                 }
             }
@@ -102,6 +108,53 @@ public class ReviewProxy extends DataProxy{
         }
 
         return result;
+    }
+
+    public Map<String, String> queryAppInfo(String idNo) {
+        if(idNo == null || idNo.length() < 1) {
+            return null;
+        }
+
+        Map<String, String> resultM = new HashMap<String, String>();
+
+        String query = "SELECT status, updateTime FROM application_info WHERE identityNo = \'" +idNo + "\'";
+        String url = buildConnectionString();
+        String class_name = "com.mysql.jdbc.Driver";
+
+        Connection conn = getConnection(url, class_name);
+        try {
+            Statement stat = conn.createStatement();
+            ResultSet set = stat.executeQuery(query);
+
+            set.next();
+
+            String val = set.getString("status");
+            resultM.put("status", val);
+            val = set.getString("updateTime");
+            resultM.put("updateTime", val);
+
+            /**
+             * If there are more than one rows in ResultSet, log it
+             * as error because result is ambiguous.
+             */
+            set.last();
+            if(set.getRow() != 1) {
+                this.errorLogFile.log(LoggingProxy.ERROR, "["
+                        + this.identityNo + "]ReviewProxy error. "
+                        + "Multiple rows in ResultSet, ambiguous result. "
+                        + "First row is covered.");
+
+                return resultM;
+            }
+
+        }catch (SQLException e) {
+            this.errorLogFile.log(LoggingProxy.ERROR, "["
+                    + this.identityNo + "]ReviewProxy error. " + e.getMessage());
+
+            return null;
+        }
+
+        return resultM;
     }
 
 }

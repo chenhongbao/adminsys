@@ -9,13 +9,13 @@
     <list default="true" id="7e84f15d-3f80-4c8f-baec-2df65c3e44be" name="Default" comment="" />
     <ignored path="adminsys.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/web.xml" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362405740246" ignored="false" />
+    <file path="/web.xml" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362479846894" ignored="false" />
     <file path="/index.jsp" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362155451782" ignored="false" />
     <file path="/index.html" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362165087820" ignored="false" />
     <file path="/widgets.js" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362216038438" ignored="false" />
     <file path="/engine.js" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362158928881" ignored="false" />
     <file path="/common.css" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362161773096" ignored="false" />
-    <file path="/style.css" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362280031058" ignored="false" />
+    <file path="/style.css" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362442282746" ignored="false" />
     <file path="$USER_HOME$/Desktop/调研资料收集-中科大/信息管理2_files/Notice_data/CalendarJS.js" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362163106924" ignored="false" />
     <file path="/info.js" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362214170055" ignored="false" />
     <file path="/a.java" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362214265727" ignored="false" />
@@ -23,32 +23,44 @@
     <file path="/register.java" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362237510459" ignored="false" />
     <file path="/PersistencyProxy.java" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362236078197" ignored="false" />
     <file path="/PersistenceProxy.java" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362397187676" ignored="false" />
-    <file path="/LoggingProxy.java" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362281750036" ignored="false" />
+    <file path="/LoggingProxy.java" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362415243880" ignored="false" />
     <file path="/register_success.html" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362237665213" ignored="false" />
     <file path="/Register.java" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362318584857" ignored="false" />
     <file path="/upload.html" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362282321548" ignored="false" />
-    <file path="/Upload.java" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362366388836" ignored="false" />
+    <file path="/Upload.java" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362466731422" ignored="false" />
     <file path="/Main.java" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362281475290" ignored="false" />
     <file path="/register.html" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362282258344" ignored="false" />
     <file path="/Login.java" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362325737572" ignored="false" />
     <file path="/login.html" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362410412717" ignored="false" />
-    <file path="/register.jsp" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362412168420" ignored="false" />
+    <file path="/register.jsp" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362487916058" ignored="false" />
     <file path="/findpwd.jsp" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362286439891" ignored="false" />
     <file path="/finish.jsp" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362288007818" ignored="false" />
     <file path="/upload.jsp" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362314029422" ignored="false" />
     <file path="/RegisterInfoBean.java" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362290830012" ignored="false" />
-    <file path="/database.sql" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362396345512" ignored="false" />
-    <file path="/Data Source" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362297256678" ignored="false" />
+    <file path="/database.sql" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362486500821" ignored="false" />
+    <file path="/Data Source" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362483605147" ignored="false" />
     <file path="/register.config.xml" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362305259013" ignored="false" />
-    <file path="/Review.java" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362406301441" ignored="false" />
+    <file path="/Review.java" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362487457925" ignored="false" />
     <file path="/AServlet.java" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362317965809" ignored="false" />
     <file path="/error.jsp" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362315754629" ignored="false" />
     <file path="/upload.config.xml" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362313039811" ignored="false" />
-    <file path="/datasource.config.xml" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362317477492" ignored="false" />
-    <file path="/function.js" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362410389467" ignored="false" />
-    <file path="/RegisterProxy.java" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362401300419" ignored="false" />
+    <file path="/datasource.config.xml" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362467303762" ignored="false" />
+    <file path="/function.js" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362481503464" ignored="false" />
+    <file path="/RegisterProxy.java" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362484706594" ignored="false" />
     <file path="/DataProxy.java" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362401542705" ignored="false" />
-    <file path="/ReviewProxy.java" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362405638074" ignored="false" />
+    <file path="/ReviewProxy.java" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362487383438" ignored="false" />
+    <file path="/README.md" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362414730098" ignored="false" />
+    <file path="/News.java" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362457752913" ignored="false" />
+    <file path="/news1.nz" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362449324598" ignored="false" />
+    <file path="/news0.oz" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362416892382" ignored="false" />
+    <file path="/dummy.xml" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362416947739" ignored="false" />
+    <file path="/NewsProxy.java" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362456900860" ignored="false" />
+    <file path="/news.jsp" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362441982129" ignored="false" />
+    <file path="/news_list.jsp" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362442987572" ignored="false" />
+    <file path="/news_lead.jsp" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362444383122" ignored="false" />
+    <file path="/NewsLead.java" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362457694518" ignored="false" />
+    <file path="/a.dummy" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362480629778" ignored="false" />
+    <file path="/a.regexp" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362485517873" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +80,7 @@
     <sortChildren value="false" />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -102,7 +115,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -112,11 +124,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ReviewProxy.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chb/base/ReviewProxy.java">
+      <file leaf-file-name="upload.config.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/xml/upload.config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="24" selection-start="2647" selection-end="2647" vertical-scroll-proportion="0.0">
+            <state line="14" column="37" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Upload.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chb/client/Upload.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="60" column="68" selection-start="2196" selection-end="2196" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/register.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="101" column="67" selection-start="3094" selection-end="3094" vertical-scroll-proportion="1.0167224">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.sql" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chb/base/database.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="201" column="11" selection-start="5520" selection-end="5520" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Login.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chb/client/Login.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="129" column="76" selection-start="5030" selection-end="5030" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1362480642086" expanded="true" signature="3461:3549" placeholder="select 1 fro..register_info..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -124,80 +174,23 @@
       <file leaf-file-name="Review.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chb/client/Review.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="33" selection-start="1852" selection-end="1852" vertical-scroll-proportion="0.0">
+            <state line="56" column="41" selection-start="1970" selection-end="1985" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/register.jsp">
+      <file leaf-file-name="ReviewProxy.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chb/base/ReviewProxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="96" column="98" selection-start="3131" selection-end="3131" vertical-scroll-proportion="-0.6785714">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="1" selection-start="9" selection-end="9" vertical-scroll-proportion="0.06333333">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="58" selection-start="3178" selection-end="3178" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="function.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/js/function.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="37" selection-start="920" selection-end="920" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="upload.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/upload.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register_frozen.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/register_frozen.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="57" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="findpwd.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/findpwd.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="27" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Register.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chb/client/Register.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="18" selection-start="3415" selection-end="3415" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="156" column="22" selection-start="4807" selection-end="4807" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#1504#1520#0" expanded="true" />
+                <element signature="e#3440#3456#0" expanded="true" />
+                <marker date="1362487383472" expanded="true" signature="3485:3551" placeholder="SELECT statu..application_info..." />
+                <marker date="1362487383472" expanded="true" signature="3485:3554" placeholder="SELECT statu..application_info..." />
+                <marker date="1362487383472" expanded="true" signature="3485:3567" placeholder="SELECT statu..application_info..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -212,22 +205,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/chb/client/Login.java" />
+        <option value="$PROJECT_DIR$/src/chb/base/NewsProxy.java" />
+        <option value="$PROJECT_DIR$/src/chb/bean/NewsLead.java" />
+        <option value="$PROJECT_DIR$/src/chb/client/News.java" />
+        <option value="$PROJECT_DIR$/web/css/style.css" />
+        <option value="$PROJECT_DIR$/web/xml/upload.config.xml" />
         <option value="$PROJECT_DIR$/src/chb/client/Upload.java" />
-        <option value="$PROJECT_DIR$/src/chb/base/database.sql" />
-        <option value="db-console:/9ec906f9/c82c6df1-cb9a-458f-b690-c7507d402c25/" />
-        <option value="$PROJECT_DIR$/src/chb/base/PersistenceProxy.java" />
-        <option value="$PROJECT_DIR$/src/chb/base/SchemaProxy.java" />
-        <option value="$PROJECT_DIR$/src/chb/base/RegisterProxy.java" />
-        <option value="$PROJECT_DIR$/src/chb/base/DataProxy.java" />
+        <option value="$PROJECT_DIR$/web/xml/datasource.config.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/chb/base/ReviewProxy.java" />
-        <option value="$PROJECT_DIR$/web/register_review.jsp" />
-        <option value="$PROJECT_DIR$/src/chb/client/Review.java" />
+        <option value="$PROJECT_DIR$/src/chb/client/Login.java" />
         <option value="$PROJECT_DIR$/web/js/function.js" />
-        <option value="$PROJECT_DIR$/web/login.html" />
+        <option value="db-console:/9ec906f9/c82c6df1-cb9a-458f-b690-c7507d402c25/" />
+        <option value="$PROJECT_DIR$/src/chb/base/RegisterProxy.java" />
+        <option value="$PROJECT_DIR$/src/chb/base/database.sql" />
+        <option value="$PROJECT_DIR$/src/chb/base/ReviewProxy.java" />
+        <option value="$PROJECT_DIR$/src/chb/client/Review.java" />
         <option value="$PROJECT_DIR$/web/register.jsp" />
-        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -271,7 +264,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -355,6 +347,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="upload" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminsys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminsys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="news" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -520,6 +530,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -777,6 +788,24 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="7e84f15d-3f80-4c8f-baec-2df65c3e44be" name="Default" comment="" />
@@ -789,25 +818,25 @@
     <frame x="58" y="-8" width="1316" height="784" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3258427" sideWeight="0.4968102" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16427432" sideWeight="0.67255217" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16427432" sideWeight="0.62439805" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43017656" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4398074" sideWeight="0.49760765" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37560192" sideWeight="0.50079745" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744783" sideWeight="0.4968102" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21829855" sideWeight="0.4968102" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31180224" sideWeight="0.6741573" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28628388" sideWeight="0.56019264" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4398074" sideWeight="0.4968102" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22408293" sideWeight="0.62439805" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37560192" sideWeight="0.49362043" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3258427" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -872,117 +901,131 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/Program Files/Java/jdk1.7.0_05/src.zip!/java/sql/ResultSet.java">
+    <entry file="file://$PROJECT_DIR$/src/chb/bean/NewsLead.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1362" column="8" selection-start="63052" selection-end="63052" vertical-scroll-proportion="0.8337731" />
+        <state line="47" column="26" selection-start="1106" selection-end="1106" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chb/client/News.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="257" column="52" selection-start="8294" selection-end="8294" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="4" selection-start="812" selection-end="812" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chb/client/Upload.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="68" selection-start="2196" selection-end="2196" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/xml/datasource.config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="44" selection-start="1057" selection-end="1057" vertical-scroll-proportion="0.56392694">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
         <state />
       </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="21" selection-start="506" selection-end="506" vertical-scroll-proportion="0.6785714">
+          <folding />
+        </state>
       </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
         <state />
       </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="20" selection-start="2749" selection-end="2749" vertical-scroll-proportion="-16.076923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chb/base/DataProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="157" column="34" selection-start="4982" selection-end="4982" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chb/client/Register.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="18" selection-start="3415" selection-end="3415" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chb/base/ReviewProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="24" selection-start="2647" selection-end="2647" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/findpwd.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="27" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/register_frozen.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="57" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chb/client/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="13" selection-start="595" selection-end="595" vertical-scroll-proportion="-1.1145252">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/upload.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/glassfish3/glassfish/modules/javax.servlet-api.jar!/javax/servlet/ServletRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="21" selection-start="198" selection-end="198" vertical-scroll-proportion="0.3601286" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/info.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.7960894" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="58" selection-start="3178" selection-end="3178" vertical-scroll-proportion="0.0">
+        <state line="60" column="24" selection-start="2312" selection-end="2312" vertical-scroll-proportion="0.8">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/function.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="37" selection-start="920" selection-end="920" vertical-scroll-proportion="0.0">
+        <state line="58" column="12" selection-start="1284" selection-end="1284" vertical-scroll-proportion="1.2114094">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/xml/upload.config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="37" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://db-console:/9ec906f9/c82c6df1-cb9a-458f-b690-c7507d402c25/">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chb/client/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="129" column="76" selection-start="5030" selection-end="5030" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1362480642086" expanded="true" signature="3461:3549" placeholder="select 1 fro..register_info..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chb/base/RegisterProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="0" selection-start="1349" selection-end="1349" vertical-scroll-proportion="-7.8756757">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chb/base/database.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="201" column="11" selection-start="5520" selection-end="5520" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chb/base/ReviewProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="156" column="22" selection-start="4807" selection-end="4807" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1504#1520#0" expanded="true" />
+            <element signature="e#3440#3456#0" expanded="true" />
+            <marker date="1362487383472" expanded="true" signature="3485:3551" placeholder="SELECT statu..application_info..." />
+            <marker date="1362487383472" expanded="true" signature="3485:3554" placeholder="SELECT statu..application_info..." />
+            <marker date="1362487383472" expanded="true" signature="3485:3567" placeholder="SELECT statu..application_info..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chb/client/Review.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="33" selection-start="1852" selection-end="1852" vertical-scroll-proportion="0.0">
+        <state line="56" column="41" selection-start="1970" selection-end="1985" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/register.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="98" selection-start="3131" selection-end="3131" vertical-scroll-proportion="-0.6785714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="1" selection-start="9" selection-end="9" vertical-scroll-proportion="0.06333333">
+        <state line="101" column="67" selection-start="3094" selection-end="3094" vertical-scroll-proportion="1.0167224">
           <folding />
         </state>
       </provider>
@@ -994,13 +1037,13 @@
         <settings>
           <artifact-editor>
             <show-content>
-              <type id="library" />
-              <type id="javaee-facet-resources" />
-              <type id="jpa-descriptors" />
               <type id="artifact" />
+              <type id="jpa-descriptors" />
+              <type id="javaee-facet-resources" />
+              <type id="library" />
             </show-content>
           </artifact-editor>
-          <last-edited>adminsys:war exploded</last-edited>
+          <last-edited>adminsys:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1048,11 +1091,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>adminsys</last-edited>
+          <last-edited>Web|adminsys</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.1946387" />
               </list>
             </option>
           </splitter-proportions>

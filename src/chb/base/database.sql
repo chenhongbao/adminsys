@@ -1,4 +1,4 @@
-
+CREATE DATABASE adminsys DEFAULT CHARSET=utf8 DEFAULT COLLATE=utf8_general_ci;
 /**
  * Create the main table for registration information.
  */
@@ -97,8 +97,106 @@ CREATE TABLE IF NOT EXISTS `register_info` (
   ddllUnionTrainUnit3           VARCHAR(50),
 
 /**
+ * Tracking information.
+ */
+  createTime                    VARCHAR(50),
+  updateTime                    VARCHAR(50),
+
+/**
  * Set the key and encoding.
  */
   PRIMARY KEY (identityNo, identity)
 
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 DEFAULT COLLATE=utf8_general_ci;
+
+
+/**
+ * Create table for news.
+ */
+CREATE TABLE IF NOT EXISTS news (
+
+/**
+ * Author information.
+ */
+  authorName                    VARCHAR(50),
+  authorEmail                   VARCHAR(50),
+  authorTelephone               VARCHAR(50),
+/**
+ * Artile information.
+ */
+  title                         VARCHAR(100),
+  content                       TEXT,
+/**
+ * Tracking information.
+ */
+  createTime                    VARCHAR(50),
+  updateTime                    VARCHAR(50),
+/**
+ * Set the primary key for the tabble.
+ */
+  PRIMARY KEY (title)
+
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 DEFAULT COLLATE=utf8_general_ci;
+
+
+/**
+ * Tracking information from back-end.
+ * Applicants' status and scoring.
+ */
+CREATE TABLE IF NOT EXISTS application_info (
+
+/*
+ * Personal information.
+ */
+  identity                      VARCHAR(50),
+  identityNo                    VARCHAR(50),
+/*
+ * wei shen he, zan huan, tong guo, ju jue
+ */
+  status                        VARCHAR(50),
+/*
+ * Information about second stage examination.
+ */
+  specialityOneName2nd          VARCHAR(50),
+  specialityOnePoint2nd         VARCHAR(50),
+  specialityTwoName2nd          VARCHAR(50),
+  specialityTwoPoint2nd         VARCHAR(50),
+  specialityThreeName2nd        VARCHAR(50),
+  specialityThreePoint2nd       VARCHAR(50),
+  specialityFourName2nd         VARCHAR(50),
+  specialityFourPoint2nd        VARCHAR(50),
+/*
+ * Scores for interview and english listening.
+ */
+  interviewPoint                VARCHAR(50),
+  listeningPoint                VARCHAR(50),
+
+/**
+ * Update time.
+ */
+  updateTime                    VARCHAR(50),
+
+/**
+* Set the key and encoding.
+*/
+  PRIMARY KEY (identityNo, identity)
+
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 DEFAULT COLLATE=utf8_general_ci;
+
+/**
+ * Cascade insertion into application after user information has been
+ * inserted into register_info.
+ */
+DROP TRIGGER IF EXISTS init_application_info;
+
+DELIMITER //
+
+CREATE TRIGGER init_application_info
+AFTER INSERT ON register_info
+FOR EACH ROW
+BEGIN
+    insert into application_info(identity, identityNo, status, updateTime)
+      values(new.identity, new.identityNo, "未审核", date_format(now(),'%Y-%c-%d %h:%i:%s'));
+END;
+
+DELIMITER ;

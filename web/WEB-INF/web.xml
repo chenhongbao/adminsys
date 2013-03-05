@@ -6,7 +6,7 @@
            version="2.5">
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>
-        <welcome-file>register.jsp</welcome-file>
+        <welcome-file>login.html</welcome-file>
         <welcome-file>index.htm</welcome-file>
     </welcome-file-list>
 
@@ -15,15 +15,15 @@
         <servlet-class>chb.client.Register</servlet-class>
         <init-param>
             <param-name>path.datasource.config</param-name>
-            <param-value>xml\datasource.config.xml</param-value>
+            <param-value>xml/datasource.config.xml</param-value>
         </init-param>
         <init-param>
             <param-name>path.register.error.log</param-name>
-            <param-value>log\register.error.log</param-value>
+            <param-value>log/register.error.log</param-value>
         </init-param>
         <init-param>
             <param-name>path.register.data.log</param-name>
-            <param-value>log\register.data.log</param-value>
+            <param-value>log/register.data.log</param-value>
         </init-param>
     </servlet>
     <servlet-mapping>
@@ -36,11 +36,11 @@
         <servlet-class>chb.client.Upload</servlet-class>
         <init-param>
             <param-name>path.upload.error.log</param-name>
-            <param-value>log\upload.error.log</param-value>
+            <param-value>log/upload.error.log</param-value>
         </init-param>
         <init-param>
             <param-name>path.upload.config</param-name>
-            <param-value>xml\upload.config.xml</param-value>
+            <param-value>xml/upload.config.xml</param-value>
         </init-param>
     </servlet>
     <servlet-mapping>
@@ -53,11 +53,11 @@
         <servlet-class>chb.client.Login</servlet-class>
         <init-param>
             <param-name>path.login.error.log</param-name>
-            <param-value>log\login.error.log</param-value>
+            <param-value>log/login.error.log</param-value>
         </init-param>
         <init-param>
             <param-name>path.datasource.config</param-name>
-            <param-value>xml\datasource.config.xml</param-value>
+            <param-value>xml/datasource.config.xml</param-value>
         </init-param>
     </servlet>
     <servlet-mapping>
@@ -70,16 +70,37 @@
         <servlet-class>chb.client.Review</servlet-class>
         <init-param>
             <param-name>path.datasource.config</param-name>
-            <param-value>xml\datasource.config.xml</param-value>
+            <param-value>xml/datasource.config.xml</param-value>
         </init-param>
         <init-param>
             <param-name>path.review.error.log</param-name>
-            <param-value>log\review.error.log</param-value>
+            <param-value>log/review.error.log</param-value>
         </init-param>
     </servlet>
     <servlet-mapping>
         <servlet-name>Review</servlet-name>
         <url-pattern>/review.se</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>News</servlet-name>
+        <servlet-class>chb.client.News</servlet-class>
+        <init-param>
+            <param-name>directory.news.content</param-name>
+            <param-value>/news</param-value>
+        </init-param>
+        <init-param>
+            <param-name>path.datasource.config</param-name>
+            <param-value>xml/datasource.config.xml</param-value>
+        </init-param>
+        <init-param>
+            <param-name>path.news.error.log</param-name>
+            <param-value>log/news.error.log</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>News</servlet-name>
+        <url-pattern>/news.se</url-pattern>
     </servlet-mapping>
 
 </web-app>

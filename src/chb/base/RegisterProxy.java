@@ -54,6 +54,7 @@ public class RegisterProxy extends DataProxy {
         }
         Statement stat = null;
         String query = buildQeuryString();
+
         try {
             stat = conn.createStatement();
             stat.execute(query);
@@ -192,10 +193,35 @@ public class RegisterProxy extends DataProxy {
             updates = updates.substring(0, updates.length()-1);
         }
 
+        /**
+         * Set the createTime and updateTime in the table register_info.
+         */
+        args += ",createTime";
+        vals += ",\'" + LoggingProxy.getTimeStamp() +"\'";
+        updates += ",updateTime=\'" + LoggingProxy.getTimeStamp()+"\'";
+
+        /**
+         * Add all the components together.
+         */
         query += args + ")";
         query += " VALUES (";
         query += vals + ") ON DUPLICATE KEY UPDATE ";
         query += updates + ";";
+
+        return query;
+    }
+
+    /**
+     * Initialize table application_info.
+     * @return query string
+     */
+    protected String buildQueryString2() {
+        String id = (String)this.paramMap.get("identity");
+        String idNo = (String)this.paramMap.get("identityNo");
+        String status = "未审核";
+
+        String query = "INSERT INTO application_info (identity, identityNo, status) ";
+        query += "VALUES (\'" + id + "\',\'" + idNo + "\',\'" + status + "');";
 
         return query;
     }

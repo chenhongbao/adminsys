@@ -57,7 +57,8 @@ public class Upload extends AServlet {
         } catch (Exception e) {
             String p = getInitParameterPath("path.upload.error.log");
             LoggingProxy logger  = new LoggingProxy(p);
-            logger.log(LoggingProxy.ERROR, "["+getHash(req.getParameterMap())+"]Upload file error.");
+            logger.log(LoggingProxy.ERROR, "["+getHash(req.getParameterMap())+"]Upload file error."
+                    + e.getMessage() +" (" + f.getAbsolutePath() + ")");
 
             req.setAttribute("info", "配置文件错误，请联系管理员。");
             RequestDispatcher dispatcher = req.getRequestDispatcher("/error.jsp");

@@ -54,11 +54,33 @@
           }
         %>
 
+        /* First element is status, second element is updateTime. */
+        var applicationInfo = [
+<%
+if(request.getAttribute("applicationInfo") != null) {
+    Map<String, String> m2 = (Map<String, String>)request.getAttribute("applicationInfo");
+    out.print("\""+ m2.get("status") +"\"");
+    out.print(",");
+    out.print("\""+ m2.get("updateTime") +"\"");
+}
+%>
+        ];
+
     </script>
 </head>
 <body>
 
 <script type="text/javascript" defer="defer">
+    /**
+     * set the content of the notice banner.
+     */
+    function setNotice(x,status, uptime) {
+        if(x && status && uptime) {
+            x.innerHTML = "同学，你好。欢迎填报西安交通大学软件学院。"
+                    +"<br>你当前的状态是<strong>"
+                    + status +"</strong>（更新时间："+ uptime +"）。";
+        }
+    }
     /**
      * When user logs in, set all the values registered by him formerly.
      */
@@ -66,8 +88,22 @@
         /* If the userInfo and infoNames have not been set, show the registering
         * form as blank.*/
         if(!userInfo || !infoNames) {
+            var notice = document.getElementById("notice");
+            if(notice) {
+                /* user is registering. */
+                 setNotice(notice, "未审核", "当前");
+            }
              return;
         }
+
+        var notice = document.getElementById("notice");
+        if(notice) {
+            /* user is registering. */
+            setNotice(notice, applicationInfo[0], applicationInfo[1]);
+        }
+
+        /* User logs in at a second time, show status. */
+
 
         for(var i = 0; i < infoNames.length; i = i+1) {
             var tagname = infoNames[i];
@@ -82,7 +118,12 @@
                         }
                     }
                 } else if(elem.tagName.toUpperCase() == "INPUT") {
-                    elem.value = value;
+                    if(elem.type.toUpperCase() != "PASSWORD"){
+                        elem.value = value;
+                    }
+                    if(elem.getAttribute("name") == "identityNo") {
+                        elem.setAttribute("disabled", "disabled");
+                    }
                 } else if(elem.tagName.toUpperCase() == "TEXTAREA") {
                     elem.value = value;
                 }
@@ -102,9 +143,14 @@
 
 </script>
 
-<div style="float: left;">
+<div id="systemInfo">
+    <br>
     <!-- This span is preserved for notice. -->
-    <span id="notice" name="notice"></span>
+    <fieldset style="border-color: #8b0000;">
+         <legend style="color: #8b0000">系统通知</legend>
+        <span id="notice" name="notice"></span>
+    </fieldset>
+
 </div>
 
 <form name="register_all" method="post" action="register.se" id="form1">
@@ -738,8 +784,10 @@
 <table align="center">
     <tbody>
     <tr>
-        <td><input value="完成注册" name="finish" id="finish" type="submit"></td>
-                  <!-- onclick="return checkInputField();" -->
+        <td><input value="完成注册" name="finish" id="finish"
+                   onclick="return checkInputField();"
+                   type="submit"></td>
+
     </tr>
     </tbody>
 </table>

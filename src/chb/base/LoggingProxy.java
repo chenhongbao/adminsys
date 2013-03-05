@@ -79,7 +79,7 @@ public class LoggingProxy {
      * Get NOW() as string.
      * @return string of the time currently
      */
-    protected String getTimeStamp() {
+    public static String getTimeStamp() {
         Date now=new Date();
         SimpleDateFormat f=new SimpleDateFormat("yyyy-MM-dd k:mm:ss");
         return f.format(now);

@@ -25,8 +25,8 @@
 
         -->
 
-        <param name="user" value="microcore" />
-        <param name="password" value="19871013" />
+        <param name="user" value="xjtuse" />
+        <param name="password" value="xjtuse" />
         <param name="useUnicode" value="true" />
         <param name="characterEncoding" value="utf-8" />
     </datasource>
