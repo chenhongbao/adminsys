@@ -5,7 +5,7 @@
 }
 
 body {
-    font: 11px "宋体", "华文宋体",Verdana, Arial,sans-serif;
+    font: 12px "宋体", "华文宋体",Verdana, Arial,sans-serif;
     padding: 0 20px;
     color: #333;
     background-color: #FFFFFF;
@@ -28,7 +28,7 @@ frameset body {
 }
 
 td, th {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 a:link {
@@ -61,7 +61,7 @@ input[type="text"], input[type="file"], input[type="password"], textarea {
     border: 1px solid;
     border-color: #808080 #FFF #FFF #7b7b7b;
     background: #dedede;
-    font-size: 11px;
+    font-size: 12px;
     vertical-align: middle;
 }
 
@@ -74,7 +74,7 @@ input[type="button"], input[type="submit"], input[type="reset"], button {
     padding: 2px 5px;
     background: #dedede;
     font-weight: bold;
-    font-size: 11px;
+    font-size: 12px;
     vertical-align: middle;
     color: #333;
 }
@@ -83,7 +83,7 @@ select {
     border: 1px solid;
     border-color: #808080 #FFF #FFF #7b7b7b;
     background: #dedede;
-    font-size: 11px;
+    font-size: 12px;
     vertical-align: middle;
     color: #333;
 }
@@ -121,7 +121,7 @@ table.data1 th {
     border: 1px solid;
     border-color: #808080 #FFF #FFF #7b7b7b;
     background: #dedede;
-    font-size: 11px;
+    font-size: 12px;
     vertical-align: middle;
 }
 
@@ -134,7 +134,7 @@ table.data1 th {
     border-color: #FFF #808080 #7b7b7b #FFF;
     background: #dedede;
     font-weight: bold;
-    font-size: 11px;
+    font-size: 12px;
     vertical-align: middle;
     color: #333;
 }

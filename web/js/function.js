@@ -70,9 +70,9 @@ function checkInputField() {
             && list.item(i).value.length < 1) {
 
             if (!e.style) {
-                e.setAttribute("style", "text-decoration:line-through;color:#dc143c;");
+                e.setAttribute("style", "color:#dc143c;");
             } else {
-                e.style.textDecoration = "line-through";
+                e.style.textDecoration = "none";
                 e.style.color = "#dc143c";
             }
 
@@ -94,6 +94,24 @@ function checkInputField() {
         return false;
     }
     return true;
+}
+
+
+
+function isIeBrowser() {
+    if(navigator.userAgent.indexOf('MSIE') > 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+function isFfBrowser() {
+    if(navigator.userAgent.indexOf('Firefox') > 0) {
+        return true;
+    } else {
+        return false;
+    }
 }
 
 

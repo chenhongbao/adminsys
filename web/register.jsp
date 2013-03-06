@@ -178,8 +178,7 @@ if(request.getAttribute("applicationInfo") != null) {
                 <img style="float: left;" src="img/xjtuse_adsys.png" alt="西安交通大学招生系统" title="西安交通大学招生系统"/>
 
                 <div style="width: 353px; height: 25px; float: left;"></div>
-                <div style="width: 240px; height: 13px; float: left;"></div>
-                <div style="width: 100px; height: 13px; float: left;">
+                <div style="width: auto; height: 13px; float: right;">
                     <a style="font-size: 13px;color: #333333;"
                        href="javascript:window.external.AddFavorite('http://se.xjtu.edu.cn','西安交通大学软件学院')"
                        target="_top">加入收藏&nbsp;|</a>
@@ -300,6 +299,7 @@ if(request.getAttribute("applicationInfo") != null) {
                 </select>
                 </td>
             </tr>
+            <tr><td></td><td><span style="font-size: 11px; color: #a52a2a;">日期格式:YYYY-MM-DD</span></td></tr>
             <tr>
                 <td align="left"><span id="identityLabel">证件类型</span></td>
                 <td align="left"><select name="identity" id="identity"
@@ -322,7 +322,8 @@ if(request.getAttribute("applicationInfo") != null) {
             </tr>
             <tr>
                 <td align="left"><span id="identityNoLabel">证件号码</span></td>
-                <td align="left"><input name="identityNo" value="" id="identityNo" type="text"></td>
+                <td align="left"><input name="identityNo" value="" id="identityNo"
+                                        type="text" maxlength="18"></td>
             </tr>
             </tbody>
         </table>
@@ -408,17 +409,15 @@ if(request.getAttribute("applicationInfo") != null) {
             <tr>
                 <td align="left"><span id="newOrOldLabel">是否应届生</span></td>
                 <td align="left"><select name="newOrOld" id="newOrOld" style="width:100%;">
-                    <option value="0">否</option>
                     <option value="1">是</option>
-
+                    <option value="0">否</option>
                 </select>
                 </td>
                 <td align="left"><span id="allDayLabel">培养模式</span></td>
                 <td align="left"><select name="allDay" id="allDay"
                                          style="width:100%;">
-                    <option value="0">非全日制</option>
                     <option value="1">全日制</option>
-
+                    <option value="0">非全日制</option>
                 </select>
                 </td>
             </tr>
@@ -683,6 +682,7 @@ if(request.getAttribute("applicationInfo") != null) {
                            type="text">
                 </td>
             </tr>
+            <tr><td></td><td></td><td></td><td><span style="font-size: 11px; color: #a52a2a;">日期格式:YYYY-MM-DD</span></td></tr>
             <tr>
                 <td align="left">
                     <span id="bachelorTypeLabel">所获学位类别</span>
@@ -699,6 +699,7 @@ if(request.getAttribute("applicationInfo") != null) {
                            type="text">
                 </td>
             </tr>
+            <tr><td></td><td></td><td></td><td><span style="font-size: 11px; color: #a52a2a;">日期格式:YYYY-MM-DD</span></td></tr>
             <tr>
                 <td align="left"></td>
                 <td align="left"></td>
@@ -726,15 +727,11 @@ if(request.getAttribute("applicationInfo") != null) {
                 <td align="left">
                     <select name="adjustSpeciality"
                             id="adjustSpeciality" style="width:220px;">
-                        <option value="20001">软件工程(苏州)</option>
-                        <option value="20002">集成电路设计(西安)</option>
-                        <option value="20003">电信软件工程(苏州)</option>
-                        <option value="20004">信息安全工程(苏州)</option>
-                        <option value="20005">软件系统设计(合肥)</option>
-                        <option value="20006">系统芯片设计(苏州)</option>
-                        <option value="20007">项目管理(特色实验班)(合肥)</option>
-                        <option value="20008">联合培养项目(苏州或合肥)</option>
-
+                        <option value="20001">软件工程</option>
+                        <option value="20002">业务分析</option>
+                        <option value="20003">金融信息工程</option>
+                        <option value="20004">集成电路</option>
+                        <option value="20005">移动云计算（苏州）</option>
                     </select>
                 </td>
                 <td align="left">
@@ -743,14 +740,11 @@ if(request.getAttribute("applicationInfo") != null) {
                 <td align="left">
                     <select name="adjustSpeciality2" id="adjustSpeciality2"
                             style="width:220px;">
-                        <option value="20001">软件系统设计(苏州)</option>
-                        <option value="20002">嵌入式系统设计(苏州)</option>
-                        <option value="20003">电信软件工程(苏州)</option>
-                        <option value="20004">信息安全工程(苏州)</option>
-                        <option value="20005">软件系统设计(合肥)</option>
-                        <option value="20006">系统芯片设计(苏州)</option>
-                        <option value="20007">项目管理(特色实验班)(合肥)</option>
-
+                        <option value="20001">软件工程</option>
+                        <option value="20002">业务分析</option>
+                        <option value="20003">金融信息工程</option>
+                        <option value="20004">集成电路</option>
+                        <option value="20005">移动云计算（苏州）</option>
                     </select>
                 </td>
             </tr>
@@ -761,13 +755,11 @@ if(request.getAttribute("applicationInfo") != null) {
                 <td align="left">
                     <select name="adjustSpeciality3" id="adjustSpeciality3"
                             style="width:220px;">
-                        <option value="20001">软件系统设计(苏州)</option>
-                        <option value="20002">嵌入式系统设计(苏州)</option>
-                        <option value="20003">电信软件工程(苏州)</option>
-                        <option value="20004">信息安全工程(苏州)</option>
-                        <option value="20005">软件系统设计(合肥)</option>
-                        <option value="20006">系统芯片设计(苏州)</option>
-                        <option value="20007">项目管理(特色实验班)(合肥)</option>
+                        <option value="20001">软件工程</option>
+                        <option value="20002">业务分析</option>
+                        <option value="20003">金融信息工程</option>
+                        <option value="20004">集成电路</option>
+                        <option value="20005">移动云计算（苏州）</option>
 
                     </select>
                 </td>
@@ -777,15 +769,15 @@ if(request.getAttribute("applicationInfo") != null) {
                 <td align="left">
                     <select name="allowChangeSpeciality" id="allowChangeSpeciality"
                             style="width:220px;">
-                        <option value="0">否</option>
                         <option value="1">是</option>
-
+                        <option value="0">否</option>
                     </select>
                 </td>
             </tr>
             <tr style="height: 5px;">
             </tr>
-            <tr>
+<!-- This sector might be useful, but currently applicants do not have these choices. -->
+<%--            <tr>
                 <td style="width: 20%" align="left">
                     联合培养单位志愿
                 </td>
@@ -801,7 +793,6 @@ if(request.getAttribute("applicationInfo") != null) {
                         <option value="深圳先进院">深圳先进院</option>
                         <option value="龙芯中科">龙芯中科</option>
                         <option value="广州海格">广州海格</option>
-
                     </select>
                 </td>
             </tr>
@@ -830,7 +821,7 @@ if(request.getAttribute("applicationInfo") != null) {
 
                     </select>
                 </td>
-            </tr>
+            </tr>--%>
             </tbody>
         </table>
         <br>
@@ -853,7 +844,28 @@ if(request.getAttribute("applicationInfo") != null) {
 </div>
 </form>
 
-
+<%
+    if(request.getParameter("top")!=null && request.getParameter("top").equals("1")) {
+%>
+<table style="width: 100%; border: 0px; padding: 0px; margin: 0px;">
+    <tr>
+        <td align="center">
+            <div style="overflow: hidden;">
+                <img src="img/bottom_01.jpg"/>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <div style="overflow: hidden;">
+                <img src="img/bottom_02.jpg"/>
+            </div>
+        </td>
+    </tr>
+</table>
+<%
+    }
+%>
 
 </body>
 </html>

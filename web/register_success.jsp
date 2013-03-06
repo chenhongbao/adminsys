@@ -18,8 +18,7 @@
                 <img style="float: left;" src="img/xjtuse_adsys.png" alt="西安交通大学招生系统" title="西安交通大学招生系统"/>
 
                 <div style="width: 353px; height: 25px; float: left;"></div>
-                <div style="width: 240px; height: 13px; float: left;"></div>
-                <div style="width: 100px; height: 13px; float: left;">
+                <div style="width: auto; height: 13px; float: right;">
                     <a style="font-size: 13px;color: #333333;"
                        href="javascript:window.external.AddFavorite('http://se.xjtu.edu.cn','西安交通大学软件学院')"
                        target="_top">加入收藏&nbsp;|</a>
@@ -35,7 +34,7 @@
             </div>
         </td>
     </tr>
-    <tr><td style="height: 200px;"></td></tr>
+    <tr><td style="height: 150px;"></td></tr>
     <tr>
         <td align="center">
             <p><img src="img/mark.png" align="bottom" alt="操作成功" title="操作成功" />
@@ -48,6 +47,24 @@
                 <!-- In firefox, I can't close window because the browser abandons it. -->
             <a href="index.html" target="_top">返回主页|</a><a href="javascript:window.close()">关闭窗口</a>
             </p>
+        </td>
+    </tr>
+    <tr><td style="height: 150px;"></td></tr>
+</table>
+
+<table style="width: 100%; border: 0px; padding: 0px; margin: 0px;">
+    <tr>
+        <td align="center">
+            <div style="overflow: hidden;">
+                <img src="img/bottom_01.jpg"/>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <div style="overflow: hidden;">
+                <img src="img/bottom_02.jpg"/>
+            </div>
         </td>
     </tr>
 </table>
