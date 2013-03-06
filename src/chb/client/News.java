@@ -183,10 +183,15 @@ public class News extends AServlet {
     }
 
     protected void scanNews() {
+        String epath = getInitParameterPath("path.news.error.log");
+        LoggingProxy logger = new LoggingProxy(epath);
+
         String news = getInitParameterPath("directory.news.content");
         File dir = new File(news);
         if (dir.exists() == false) {
             dir.mkdirs();
+            logger.log(LoggingProxy.ERROR, "[---]News error. "
+                    + "Direcotry does not exists. (" + dir.getAbsolutePath() + ")");
             return;
         }
 
@@ -204,6 +209,8 @@ public class News extends AServlet {
             }
         });
         if (files.length < 1) {
+            logger.log(LoggingProxy.INFO, "[---]News info. "
+                    + "Nothing to be processsed in \'" + dir.getAbsolutePath() + "\'.");
             /* Nothing to be processed. */
             return;
         }
@@ -217,7 +224,7 @@ public class News extends AServlet {
             BufferedReader br = null;
 
             try {
-                //TODO Implement news write-in.
+
                 lead = new NewsLead();
                 lead.setCreateTime(LoggingProxy.getTimeStamp());
                 lead.setUpdateTime(LoggingProxy.getTimeStamp());
@@ -254,6 +261,7 @@ public class News extends AServlet {
                 }
                 lead.setAuthorEmail(line);
 
+                br.readLine(); // This line is left empty.
                 String content = "";
                 while ((line = br.readLine()) != null) {
                     content += line + "\n";
@@ -268,11 +276,9 @@ public class News extends AServlet {
                  */
                 String cpath = getInitParameterPath("path.datasource.config");
                 NewsProxy proxy = new NewsProxy(cpath);
-                String epath = getInitParameterPath("path.news.error.log");
                 proxy.setErrorLogPath(epath);
 
                 if (proxy.storeSingleNews(lead) == false) {
-                    LoggingProxy logger = new LoggingProxy(epath);
                     logger.log(LoggingProxy.ERROR, "[---]News error. "
                             + lead.getTitle() + " can't be stored. ("
                             + f.getAbsolutePath() + ")");
@@ -294,12 +300,10 @@ public class News extends AServlet {
                  * it needs to rename the news file after it is processed.
                  */
                 String epath2 = getInitParameterPath("path.news.error.log");
-                LoggingProxy logger = new LoggingProxy(epath2);
                 logger.log(LoggingProxy.ERROR, "[---]News error. " + e.getMessage());
 
             } catch (IOException e) {
                 String epath2 = getInitParameterPath("path.news.error.log");
-                LoggingProxy logger = new LoggingProxy(epath2);
                 logger.log(LoggingProxy.ERROR, "[---]News error. "
                         + e.getMessage() + "(" + f.getAbsolutePath() + ")");
             }

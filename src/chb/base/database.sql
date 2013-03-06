@@ -197,6 +197,6 @@ FOR EACH ROW
 BEGIN
     insert into application_info(identity, identityNo, status, updateTime)
       values(new.identity, new.identityNo, "未审核", date_format(now(),'%Y-%c-%d %h:%i:%s'));
-END;
+END //
 
 DELIMITER ;

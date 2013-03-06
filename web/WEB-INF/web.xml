@@ -87,7 +87,7 @@
         <servlet-class>chb.client.News</servlet-class>
         <init-param>
             <param-name>directory.news.content</param-name>
-            <param-value>/news</param-value>
+            <param-value>news</param-value>
         </init-param>
         <init-param>
             <param-name>path.datasource.config</param-name>

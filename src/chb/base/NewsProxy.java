@@ -126,6 +126,8 @@ public class NewsProxy extends DataProxy{
         String class_name = "com.mysql.jdbc.Driver";
         Connection conn = getConnection(url, class_name);
 
+        this.errorLogFile.log(LoggingProxy.INFO, query);
+
         try {
             Statement stat = conn.createStatement();
             stat.execute(query);
