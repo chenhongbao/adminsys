@@ -99,8 +99,13 @@
     <table align="center" class="register" style="width: 100%;">
         <tbody>
         <tr>
-            <td align="center"><input name="upload" value="上传文件" onclick=""
-                       id="upload" type="submit"></td>
+            <td align="center">
+                <input name="upload" value="上传文件"
+                       id="upload" type="submit">
+                <a href="register_success.jsp" target="_top" style="margin-left: 5px;">
+                    <input name="upload" value="忽略此步" onclick=""
+                           id="skip" type="button"></a>
+            </td>
         </tr>
         </tbody>
     </table>
