@@ -60,7 +60,7 @@
 <table width="680" cellspacing="0" cellpadding="0" border="0">
     <tbody>
     <tr>
-        <td class="text" valign="middle"style="width: 100%;">
+        <td class="text" valign="middle" style="width: 100%;">
             <div class="news_title"><%= lead.getTitle()%></div>
             <hr width="100%" size="1" noshade="" color="#999999" align="CENTER" />
             <p align="center">

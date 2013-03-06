@@ -163,6 +163,14 @@ table.data1 th {
     font-size: 12px;
     line-height: 22px;
     text-indent: 24px;
+    text-align: left;
+}
+
+iframe {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    border-color: #ffffff;
 }
 
 

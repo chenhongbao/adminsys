@@ -93,6 +93,14 @@ function checkInputField() {
         alert("某些项目没有填写，请检查。");
         return false;
     }
+    // Check the pwd and confirmPwd and they must be the same.
+    var pwd = document.getElementById("pwd");
+    var cpwd = document.getElementById("confirmPwd");
+    if(pwd && pwd && pwd.value != cpwd.value) {
+        alert("两次输入的密码不同，请修正。");
+        return false;
+    }
+
     return true;
 }
 
