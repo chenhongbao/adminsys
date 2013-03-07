@@ -68,7 +68,7 @@ public class DataProxy {
         register_info_fields.add("identity");
         register_info_fields.add("political");
         register_info_fields.add("identityNo");
-
+        register_info_fields.add("location");
         /**
          * Communication information.
          * id =register_info_fields.add("communicationInfoPanel"

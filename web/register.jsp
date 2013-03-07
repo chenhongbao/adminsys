@@ -324,6 +324,14 @@ if(request.getAttribute("applicationInfo") != null) {
                 <td align="left"><span id="identityNoLabel">证件号码</span></td>
                 <td align="left"><input name="identityNo" value="" id="identityNo"
                                         type="text" maxlength="18"></td>
+                <td align="left"><span id="locationLabel">籍贯</span></td>
+                <td align="left">
+                    <input name="location" value="" id="location" type="text" />
+                </td>
+            </tr>
+            <tr>
+                <td></td><td></td><td></td>
+                <td><span style="font-size: 11px; color: #a52a2a;">籍贯格式:XX省XX市</span></td>
             </tr>
             </tbody>
         </table>
@@ -398,6 +406,13 @@ if(request.getAttribute("applicationInfo") != null) {
         <br>
         <table>
             <tbody>
+            <!--
+                 If the user logs in again, password blank will not appear.
+                 If the user log in again, the userInfo attribute will exist.
+            -->
+            <%
+                if(request.getAttribute("userInfo") == null) {
+            %>
             <tr>
                 <td align="left"><span id="pwdLabel">密码</span></td>
                 <td align="left"><input name="pwd" id="pwd" value=""
@@ -406,6 +421,9 @@ if(request.getAttribute("applicationInfo") != null) {
                 <td align="left"><input name="confirmPwd" id="confirmPwd"
                                         value="" type="password"></td>
             </tr>
+            <%
+                }
+            %>
             <tr>
                 <td align="left"><span id="newOrOldLabel">是否应届生</span></td>
                 <td align="left"><select name="newOrOld" id="newOrOld" style="width:100%;">

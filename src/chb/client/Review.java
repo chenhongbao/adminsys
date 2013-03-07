@@ -16,11 +16,10 @@ import java.util.Map;
  */
 public class Review extends AServlet{
 
-    String identityNo = null;
-
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        this.identityNo = req.getParameter("identityNo");
+        String identityNo = null;
+        identityNo = req.getParameter("identityNo");
 
         /**
          * Get configuration in web.xml for servlet.
@@ -32,15 +31,15 @@ public class Review extends AServlet{
         /**
          * Query information returned in the form of string-to-string map.
          */
-        Map<String, String> m =proxy.queryInfo(this.identityNo);
-        Map<String, String> m2 = proxy.queryAppInfo(this.identityNo);
+        Map<String, String> m =proxy.queryInfo(identityNo);
+        Map<String, String> m2 = proxy.queryAppInfo(identityNo);
 
         /**
          * If it returns null, report error.
          */
         if(m == null || m2 == null) {
             LoggingProxy logger = new LoggingProxy(epath);
-            logger.log(LoggingProxy.ERROR, "[" + this.identityNo +"]Review error. "
+            logger.log(LoggingProxy.ERROR, "[" + identityNo +"]Review error. "
                     + "Database query error, return null.");
 
             req.setAttribute("info", "数据库查询错误，或许用户不存在，请联系管理员。");

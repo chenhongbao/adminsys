@@ -102,5 +102,26 @@
         <servlet-name>News</servlet-name>
         <url-pattern>/news.se</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>FindPwd</servlet-name>
+        <servlet-class>chb.client.FindPwd</servlet-class>
+        <init-param>
+            <param-name>path.datasource.config</param-name>
+            <param-value>xml/datasource.config.xml</param-value>
+        </init-param>
+        <init-param>
+            <param-name>path.email.config</param-name>
+            <param-value>xml/email.config.xml</param-value>
+        </init-param>
+        <init-param>
+            <param-name>path.findpwd.error.log</param-name>
+            <param-value>log/findpwd.error.log</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FindPwd</servlet-name>
+        <url-pattern>/findpwd.se</url-pattern>
+    </servlet-mapping>
 
 </web-app>

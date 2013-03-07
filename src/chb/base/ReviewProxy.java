@@ -91,7 +91,7 @@ public class ReviewProxy extends DataProxy{
              * as error because result is ambiguous.
              */
             set.last();
-            if(set.getRow() != 1) {
+            if(set.getRow() > 1) {
                 this.errorLogFile.log(LoggingProxy.ERROR, "["
                         + this.identityNo + "]ReviewProxy error. "
                         + "Multiple rows in ResultSet, ambiguous result. "

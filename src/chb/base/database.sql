@@ -14,6 +14,7 @@ CREATE TABLE IF NOT EXISTS `register_info` (
   identity                      VARCHAR(50),
   political                     VARCHAR(50),
   identityNo                    VARCHAR(50),
+  location                      VARCHAR(50),
 
 /**
  * Communication information.
