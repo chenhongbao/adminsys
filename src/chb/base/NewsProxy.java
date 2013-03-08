@@ -31,6 +31,12 @@ public class NewsProxy extends DataProxy{
         Connection conn = getConnection(url, class_name);
         try {
             Statement stat = conn.createStatement();
+            if(stat == null) {
+                this.errorLogFile.log(LoggingProxy.ERROR,
+                        "[---]NewsProxy error. queryAllNews. Database query error. " +
+                                "Create statement returns null.");
+                return null;
+            }
             ResultSet set = stat.executeQuery(query);
 
             while(set.next()) {

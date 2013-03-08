@@ -92,6 +92,7 @@ public class DataProxy {
         register_info_fields.add("newOrOld");
         register_info_fields.add("allDay");
         register_info_fields.add("examType");
+        register_info_fields.add("education");
         register_info_fields.add("comment");
 
         /**
@@ -126,6 +127,7 @@ public class DataProxy {
         register_info_fields.add("specialityTwoName");
         register_info_fields.add("specialityTwoPoint");
         register_info_fields.add("zyecode");
+        register_info_fields.add("totalPoint");
 
         /**
          * Bachelor information.
@@ -335,7 +337,6 @@ public class DataProxy {
             }
             Node n = nodes.item(0);
             String v = n.getNodeValue();
-
             return v;
         } catch (Exception e) {
             return "";

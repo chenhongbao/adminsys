@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<config>
+    <csv>
+        <column rank="1" label="考生编号" name="admitCardNo" />
+        <column rank="2" label="姓名" name="name" />
+        <column rank="3" label="性别" name="sex" />
+        <column rank="4" label="民族" name="people" />
+        <column rank="5" label="职务" name="newOrOld" />
+        <column rank="6" label="学历" name="education" />
+        <column rank="7" label="所在单位" name="unitName" />
+        <column rank="8" label="本科专业" name="graduateSpecialityName" />
+        <column rank="9" label="报考专业" name="firstChoiceSpecialityName" />
+        <column rank="10" label="报考类型" name="examType" />
+        <column rank="11" label="外语" name="englishPoint" />
+        <column rank="12" label="政治" name="politicalPoint" />
+        <column rank="13" label="专业课一名称" name="specialityOneName" />
+        <column rank="14" label="专业课一得分" name="specialityOnePoint" />
+        <column rank="15" label="专业课二名称" name="specialityTwoName" />
+        <column rank="16" label="专业课二得分" name="specialityTwoPoint" />
+        <column rank="17" label="总分" name="totalPoint" />
+    </csv>
+</config>

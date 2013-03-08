@@ -38,10 +38,8 @@
 
                 <div style="width: 353px; height: 25px; float: left;"></div>
                 <div style="width: auto; height: 13px; float: right;">
-                    <a style="font-size: 13px;color: #333333;"
-                       href="javascript:window.external.AddFavorite('http://se.xjtu.edu.cn','西安交通大学软件学院')"
-                       target="_top">加入收藏&nbsp;|</a>
-                    <a style="font-size: 13px;color: #333333;" href="#">管理入口</a>
+                    <a style="font-size: 13px;color: #333333;" href="http://se.xjtu.edu.cn/"
+                       target="_blank">学院主页&nbsp;</a>
                 </div>
             </div>
         </td>
@@ -103,7 +101,7 @@
                 <input name="upload" value="上传文件"
                        id="upload" type="submit">
                 <a href="register_success.jsp" target="_top" style="margin-left: 5px;">
-                    <input name="upload" value="忽略此步" onclick=""
+                    <input name="upload" value="忽略此步" onclick="window.open('register_success.jsp','_top')"
                            id="skip" type="button"></a>
             </td>
         </tr>

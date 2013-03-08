@@ -39,6 +39,7 @@ CREATE TABLE IF NOT EXISTS `register_info` (
   newOrOld                      VARCHAR(50),
   allDay                        VARCHAR(50),
   examType                      VARCHAR(50),
+  education                     VARCHAR(50),
   comment                       VARCHAR(200),
 
 /**
@@ -73,6 +74,7 @@ CREATE TABLE IF NOT EXISTS `register_info` (
   specialityTwoName             VARCHAR(50),
   specialityTwoPoint            VARCHAR(50),
   zyecode                       VARCHAR(50),
+  totalPoint                    VARCHAR(50),
 
 /**
  * Bachelor information.

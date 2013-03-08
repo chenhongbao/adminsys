@@ -9,9 +9,9 @@
     <list default="true" id="7e84f15d-3f80-4c8f-baec-2df65c3e44be" name="Default" comment="" />
     <ignored path="adminsys.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/web.xml" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362641300305" ignored="false" />
+    <file path="/web.xml" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362732902978" ignored="false" />
     <file path="/index.jsp" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362155451782" ignored="false" />
-    <file path="/index.html" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362636750371" ignored="false" />
+    <file path="/index.html" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362743554348" ignored="false" />
     <file path="/widgets.js" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362216038438" ignored="false" />
     <file path="/engine.js" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362158928881" ignored="false" />
     <file path="/common.css" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362161773096" ignored="false" />
@@ -28,16 +28,16 @@
     <file path="/Register.java" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362318584857" ignored="false" />
     <file path="/upload.html" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362282321548" ignored="false" />
     <file path="/Upload.java" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362466731422" ignored="false" />
-    <file path="/Main.java" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362281475290" ignored="false" />
+    <file path="/Main.java" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362654063399" ignored="false" />
     <file path="/register.html" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362282258344" ignored="false" />
     <file path="/Login.java" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362500658973" ignored="false" />
-    <file path="/login.html" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362635606546" ignored="false" />
-    <file path="/register.jsp" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362632636700" ignored="false" />
+    <file path="/login.html" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362657716766" ignored="false" />
+    <file path="/register.jsp" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362737133541" ignored="false" />
     <file path="/findpwd.jsp" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362643306517" ignored="false" />
     <file path="/finish.jsp" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362288007818" ignored="false" />
-    <file path="/upload.jsp" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362580558979" ignored="false" />
+    <file path="/upload.jsp" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362658459000" ignored="false" />
     <file path="/RegisterInfoBean.java" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362290830012" ignored="false" />
-    <file path="/database.sql" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362631379677" ignored="false" />
+    <file path="/database.sql" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362728844812" ignored="false" />
     <file path="/Data Source" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362483605147" ignored="false" />
     <file path="/register.config.xml" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362305259013" ignored="false" />
     <file path="/Review.java" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362487457925" ignored="false" />
@@ -45,16 +45,16 @@
     <file path="/error.jsp" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362503387803" ignored="false" />
     <file path="/upload.config.xml" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362313039811" ignored="false" />
     <file path="/datasource.config.xml" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362467303762" ignored="false" />
-    <file path="/function.js" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362578753704" ignored="false" />
+    <file path="/function.js" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362709059020" ignored="false" />
     <file path="/RegisterProxy.java" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362484706594" ignored="false" />
-    <file path="/DataProxy.java" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362401542705" ignored="false" />
+    <file path="/DataProxy.java" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362735761925" ignored="false" />
     <file path="/ReviewProxy.java" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362487383438" ignored="false" />
     <file path="/README.md" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362414730098" ignored="false" />
     <file path="/News.java" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362550999437" ignored="false" />
     <file path="/news1.nz" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362449324598" ignored="false" />
     <file path="/news0.oz" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362416892382" ignored="false" />
     <file path="/dummy.xml" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362416947739" ignored="false" />
-    <file path="/NewsProxy.java" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362549741223" ignored="false" />
+    <file path="/NewsProxy.java" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362724781943" ignored="false" />
     <file path="/news.jsp" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362441982129" ignored="false" />
     <file path="/news_list.jsp" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362537669734" ignored="false" />
     <file path="/news_lead.jsp" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362538684949" ignored="false" />
@@ -62,10 +62,20 @@
     <file path="/a.dummy" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362644192159" ignored="false" />
     <file path="/a.regexp" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362485517873" ignored="false" />
     <file path="/register_success.jsp" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362503297772" ignored="false" />
-    <file path="/fragment.java" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362631069123" ignored="false" />
+    <file path="/fragment.java" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362710756834" ignored="false" />
     <file path="/FindPwd.java" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362644439459" ignored="false" />
-    <file path="/email.config.xml" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362640054208" ignored="false" />
-    <file path="/MailProxy.java" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362642126607" ignored="false" />
+    <file path="/email.config.xml" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362709685447" ignored="false" />
+    <file path="/MailProxy.java" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362655529972" ignored="false" />
+    <file path="$PROJECT_DIR$/../Test/.idea/workspace.xml" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362657101092" ignored="false" />
+    <file path="$PROJECT_DIR$/../Test/src/Main.java" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362710118742" ignored="false" />
+    <file path="$PROJECT_DIR$/../Test/src/META-INF/MANIFEST.MF" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362710969559" ignored="false" />
+    <file path="$PROJECT_DIR$/../Test/src/main/Main.java" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362710969559" ignored="false" />
+    <file path="$PROJECT_DIR$/../Test/src/admin/CsvProxy.java" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362725218719" ignored="false" />
+    <file path="/CsvProxy.java" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362740359788" ignored="false" />
+    <file path="/Csv.java" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362738660502" ignored="false" />
+    <file path="/DataLead.java" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362732021083" ignored="false" />
+    <file path="/csv.config.xml" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362729642343" ignored="false" />
+    <file path="/csv.jsp" changelist="7e84f15d-3f80-4c8f-baec-2df65c3e44be" time="1362742917132" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,22 +148,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/web/css/style.css" />
-        <option value="$PROJECT_DIR$/web/news_lead.jsp" />
-        <option value="$PROJECT_DIR$/web/js/function.js" />
-        <option value="$PROJECT_DIR$/web/upload.jsp" />
-        <option value="$PROJECT_DIR$/src/chb/base/DataProxy.java" />
-        <option value="$PROJECT_DIR$/src/chb/base/database.sql" />
-        <option value="$PROJECT_DIR$/web/register.jsp" />
-        <option value="$PROJECT_DIR$/web/login.html" />
-        <option value="$PROJECT_DIR$/web/index.html" />
-        <option value="$PROJECT_DIR$/src/chb/client/Review.java" />
-        <option value="$PROJECT_DIR$/web/xml/email.config.xml" />
-        <option value="$PROJECT_DIR$/src/chb/base/MailProxy.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/web/findpwd.jsp" />
-        <option value="$PROJECT_DIR$/src/chb/base/ReviewProxy.java" />
         <option value="$PROJECT_DIR$/src/chb/client/FindPwd.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/chb/base/DataProxy.java" />
+        <option value="$PROJECT_DIR$/src/chb/admin/Csv.java" />
+        <option value="$PROJECT_DIR$/src/chb/base/CsvProxy.java" />
+        <option value="$PROJECT_DIR$/web/admin/admin.jsp" />
+        <option value="$PROJECT_DIR$/web/admin/csv.jsp" />
+        <option value="$PROJECT_DIR$/web/findpwd.jsp" />
+        <option value="$PROJECT_DIR$/web/error.jsp" />
+        <option value="$PROJECT_DIR$/web/register.jsp" />
+        <option value="$PROJECT_DIR$/web/upload.jsp" />
+        <option value="$PROJECT_DIR$/web/news_lead.jsp" />
+        <option value="$PROJECT_DIR$/web/news_list.jsp" />
+        <option value="$PROJECT_DIR$/web/register_success.jsp" />
+        <option value="$PROJECT_DIR$/web/csv.jsp" />
+        <option value="$PROJECT_DIR$/web/index.html" />
       </list>
     </option>
   </component>
@@ -196,6 +206,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -203,6 +214,10 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="adminsys" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -215,9 +230,240 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminsys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminsys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminsys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminsys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminsys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminsys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminsys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminsys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="upload" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminsys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminsys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="news" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminsys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminsys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="log" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminsys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminsys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminsys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminsys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminsys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminsys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminsys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminsys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bean" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminsys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminsys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminsys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminsys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -229,7 +475,7 @@
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="editor.preferences.appearance" />
-    <property name="last_opened_file_path" value="D:/Program Files/commons-email-1.3.1" />
+    <property name="last_opened_file_path" value="D:/glassfish3/glassfish/modules/javax.mail.jar!/" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="project.structure.side.proportion" value="0.1946387" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -246,6 +492,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Users\Administrator\workspace\git\adminsys\web\img" />
       <recent name="E:\Users\Administrator\workspace\git\adminsys\web\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Users\Administrator\workspace\git\adminsys\web" />
     </key>
   </component>
   <component name="RunManager" selected="Glassfish Server.Glassfish 3.1.2.2">
@@ -384,7 +633,6 @@
     </configuration>
     <configuration default="false" name="Glassfish 3.1.2.2" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="Glassfish 3.1.2.2">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/adminsys_war_exploded" />
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
         <artifact name="adminsys:war exploded">
           <settings />
@@ -507,23 +755,23 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3258427" sideWeight="0.4968102" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16427432" sideWeight="0.6741573" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16427432" sideWeight="0.670947" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43017656" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37560192" sideWeight="0.50079745" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21829855" sideWeight="0.4968102" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.54253614" sideWeight="0.4968102" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31180224" sideWeight="0.6741573" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22647528" sideWeight="0.6741573" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30176565" sideWeight="0.49362043" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24242425" sideWeight="0.670947" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905295" sideWeight="0.49362043" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3258427" sideWeight="0.4968102" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -588,110 +836,28 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="45" selection-start="1917" selection-end="1917" vertical-scroll-proportion="0.7135135">
-          <folding>
-            <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#1;n#div#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#2;n#div#1;n#div#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#td#0;n#tr#0;n#table#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#td#0;n#tr#0;n#table#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#td#0;n#tr#0;n#table#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="42" selection-start="4281" selection-end="4281" vertical-scroll-proportion="0.49823943">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chb/client/AServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="147" selection-end="147" vertical-scroll-proportion="0.16295026">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/xml/upload.config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="25" selection-start="277" selection-end="277" vertical-scroll-proportion="0.23170732">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/xml/datasource.config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chb/base/RegisterProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="23" selection-start="815" selection-end="815" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/xml/email.config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="16" selection-start="288" selection-end="295" vertical-scroll-proportion="0.28691274">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chb/client/Review.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="48" selection-start="1031" selection-end="1031" vertical-scroll-proportion="0.42367068">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chb/client/Upload.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="311" column="20" selection-start="12916" selection-end="12916" vertical-scroll-proportion="0.33868092">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-16.844278">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chb/base/MailProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="41" selection-start="2818" selection-end="2818" vertical-scroll-proportion="1.9694656">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chb/base/DataProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="302" column="24" selection-start="8884" selection-end="8884" vertical-scroll-proportion="0.5750636">
+        <state line="340" column="31" selection-start="10287" selection-end="10287" vertical-scroll-proportion="0.4163424">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/xml/csv.config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="64" selection-start="953" selection-end="970" vertical-scroll-proportion="0.5738255">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="21" selection-start="4059" selection-end="4059" vertical-scroll-proportion="-8.769231">
+        <state line="130" column="39" selection-start="4693" selection-end="4703" vertical-scroll-proportion="0.32807016">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
       </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
         <state />
@@ -700,29 +866,100 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/findpwd.jsp">
+    <entry file="file://$PROJECT_DIR$/src/chb/admin/Csv.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="38" selection-start="2083" selection-end="2083" vertical-scroll-proportion="0.16193181">
+        <state line="44" column="33" selection-start="1678" selection-end="1678" vertical-scroll-proportion="0.9125214">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chb/base/CsvProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="116" column="36" selection-start="3558" selection-end="3558" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3383#3391#0" expanded="true" />
+            <element signature="e#3440#3450#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="6.785714">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chb/base/ReviewProxy.java">
+    <entry file="file://$PROJECT_DIR$/web/error.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="29" selection-start="2697" selection-end="2697" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1362644211516" expanded="true" signature="-1:-1" placeholder="SELECT statu..application_info..." />
-          </folding>
+        <state line="27" column="59" selection-start="1333" selection-end="1333" vertical-scroll-proportion="-6.785714">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chb/client/FindPwd.java">
+    <entry file="file://$PROJECT_DIR$/web/findpwd.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="32" selection-start="1441" selection-end="1441" vertical-scroll-proportion="0.4">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="27" column="54" selection-start="1145" selection-end="1145" vertical-scroll-proportion="-0.6785714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/news_lead.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="70" selection-start="1399" selection-end="1399" vertical-scroll-proportion="0.21388368">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/news_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="70" selection-start="1588" selection-end="1588" vertical-scroll-proportion="0.21388368">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="182" column="49" selection-start="6215" selection-end="6215" vertical-scroll-proportion="0.034234233">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/register_frozen.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/register_success.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="70" selection-start="1120" selection-end="1120" vertical-scroll-proportion="0.54774773">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/upload.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="49" selection-start="1435" selection-end="1435" vertical-scroll-proportion="0.034234233">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/csv.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="35" selection-start="1556" selection-end="1556" vertical-scroll-proportion="0.24953096">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -734,9 +971,9 @@
           <artifact-editor>
             <show-content>
               <type id="jpa-descriptors" />
-              <type id="artifact" />
               <type id="library" />
               <type id="javaee-facet-resources" />
+              <type id="artifact" />
             </show-content>
           </artifact-editor>
           <last-edited>adminsys:war exploded</last-edited>
@@ -764,10 +1001,11 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>commons-email-1.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.1946387" />
               </list>
             </option>
           </splitter-proportions>
@@ -811,7 +1049,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>commons-email-1.3</last-edited>
+          <last-edited>javax.mail</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

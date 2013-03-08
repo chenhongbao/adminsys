@@ -12,7 +12,7 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathFactory;
 
-public class MailProxy extends DataProxy{
+public class MailProxy extends DataProxy {
 
     private String hostname = "";
     private String toemail = "";
@@ -90,18 +90,22 @@ public class MailProxy extends DataProxy{
 
     public boolean sendEmail() {
         try {
-        SimpleEmail email = new SimpleEmail();
-        email.setHostName(this.hostname);
-        email.addTo(this.toemail,this.toname);
-        email.setFrom(this.fromemail, this.fromname);
-        email.setAuthentication(this.user, this.password);
-        email.setSubject(this.subject);
-        email.setMsg(this.message);
-        email.setCharset("UTF-8");
-        email.send();
+            SimpleEmail email = new SimpleEmail();
+            email.setHostName(this.hostname);
+            email.addTo(this.toemail, this.toname);
+            email.setFrom(this.fromemail, this.fromname);
+            email.setAuthentication(this.user, this.password);
+            email.setSubject(this.subject);
+            email.setMsg(this.message);
+            email.setCharset("UTF-8");
+            email.send();
         } catch (EmailException e) {
             LoggingProxy logger = new LoggingProxy(this.errorLogPath);
             logger.log(LoggingProxy.ERROR, "[---]EmailProxy error. " + e.getMessage());
+            String msg = "Host:" + this.hostname + " | From:" + this.fromemail
+                    + ", " + this.fromname + " | To:" + this.toemail + ", " + this.toname
+                    + " | Auth:" + this.user + ", " + this.password;
+            logger.log(LoggingProxy.ERROR, msg);
 
             return false;
         }

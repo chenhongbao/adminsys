@@ -1,14 +1,26 @@
 package chb.test;
 
 
-import chb.base.LoggingProxy;
+import org.apache.commons.mail.EmailException;
+import org.apache.commons.mail.SimpleEmail;
 
 public class Main {
 
     public static void main(String[] args) {
-        String lpath = "E:\\Users\\Administrator\\workspace\\git\\adminsys\\web\\log\\register.data.log";
-        LoggingProxy logproxy = new LoggingProxy(lpath);
+        SimpleEmail email = new SimpleEmail();
 
-        logproxy.log(LoggingProxy.WARNING, "Hello, LoggingProcxy.");
+        try{
+
+        email.setHostName("smtp.163.com");
+        email.addTo("bulktree@126.com","bulktree");
+        email.setFrom("bulktree@163.com", "bulktree");
+        email.setAuthentication("bulktree", "123456");
+        email.setSubject("Hello, This is My First Email Application");
+        email.setMsg("I am bulktree This is JavaMail Application");
+        email.send();
+        System.out.println("The SimpleEmail send sucessful!!!");
+        } catch (EmailException e) {
+            e.printStackTrace();
+        }
     }
 }

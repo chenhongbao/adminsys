@@ -179,10 +179,8 @@ if(request.getAttribute("applicationInfo") != null) {
 
                 <div style="width: 353px; height: 25px; float: left;"></div>
                 <div style="width: auto; height: 13px; float: right;">
-                    <a style="font-size: 13px;color: #333333;"
-                       href="javascript:window.external.AddFavorite('http://se.xjtu.edu.cn','西安交通大学软件学院')"
-                       target="_top">加入收藏&nbsp;|</a>
-                    <a style="font-size: 13px;color: #333333;" href="#">管理入口</a>
+                    <a style="font-size: 13px;color: #333333;" href="http://se.xjtu.edu.cn/"
+                       target="_blank">学院主页&nbsp;</a>
                 </div>
             </div>
         </td>
@@ -305,7 +303,6 @@ if(request.getAttribute("applicationInfo") != null) {
                 <td align="left"><select name="identity" id="identity"
                                          style="width:100%;">
                     <option value="身份证">身份证</option>
-                    <option value="学生证">学生证</option>
                     <option value="军官证">军官证</option>
 
                 </select></td>
@@ -427,15 +424,15 @@ if(request.getAttribute("applicationInfo") != null) {
             <tr>
                 <td align="left"><span id="newOrOldLabel">是否应届生</span></td>
                 <td align="left"><select name="newOrOld" id="newOrOld" style="width:100%;">
-                    <option value="1">是</option>
-                    <option value="0">否</option>
+                    <option value="应届">是</option>
+                    <option value="其他">否</option>
                 </select>
                 </td>
                 <td align="left"><span id="allDayLabel">培养模式</span></td>
                 <td align="left"><select name="allDay" id="allDay"
                                          style="width:100%;">
-                    <option value="1">全日制</option>
-                    <option value="0">非全日制</option>
+                    <option value="全日制">全日制</option>
+                    <option value="非全日制">非全日制</option>
                 </select>
                 </td>
             </tr>
@@ -444,11 +441,17 @@ if(request.getAttribute("applicationInfo") != null) {
                 <td align="left">
                     <select name="examType" id="examType"
                             style="width:100%;">
-                        <option value="1">全国统考</option>
-                        <option value="2">全国联考</option>
-                        <option value="3">自主招生</option>
+                        <option value="统考">全国统考</option>
+                        <option value="联考">全国联考</option>
+                        <option value="自主招生">自主招生</option>
 
                     </select>
+                </td>
+                <td align="left"><span id="educationLabel">学历</span></td>
+                <td align="left"><select name="education" id="education"
+                                         style="width:100%;">
+                    <option value="本科">本科</option>
+                    <option value="大专">大专</option></select>
                 </td>
             </tr>
             <tr>
@@ -650,6 +653,14 @@ if(request.getAttribute("applicationInfo") != null) {
                     <input name="zyecode" value="" id="zyecode" type="text">
                 </td>
             </tr>
+            <tr>
+                <td align="left">
+                    <span id="totalPointLabel">总分</span>
+                </td>
+                <td align="left">
+                    <input name="totalPoint" value="" id="totalPoint" type="text">
+                </td>
+            </tr>
             </tbody>
         </table>
         <br>
@@ -745,11 +756,11 @@ if(request.getAttribute("applicationInfo") != null) {
                 <td align="left">
                     <select name="adjustSpeciality"
                             id="adjustSpeciality" style="width:220px;">
-                        <option value="20001">软件工程</option>
-                        <option value="20002">业务分析</option>
-                        <option value="20003">金融信息工程</option>
-                        <option value="20004">集成电路</option>
-                        <option value="20005">移动云计算（苏州）</option>
+                        <option value="软件工程">软件工程</option>
+                        <option value="业务分析">业务分析</option>
+                        <option value="金融信息工程">金融信息工程</option>
+                        <option value="集成电路">集成电路</option>
+                        <option value="移动云计算（苏州）">移动云计算（苏州）</option>
                     </select>
                 </td>
                 <td align="left">
@@ -758,11 +769,11 @@ if(request.getAttribute("applicationInfo") != null) {
                 <td align="left">
                     <select name="adjustSpeciality2" id="adjustSpeciality2"
                             style="width:220px;">
-                        <option value="20001">软件工程</option>
-                        <option value="20002">业务分析</option>
-                        <option value="20003">金融信息工程</option>
-                        <option value="20004">集成电路</option>
-                        <option value="20005">移动云计算（苏州）</option>
+                        <option value="软件工程">软件工程</option>
+                        <option value="业务分析">业务分析</option>
+                        <option value="金融信息工程">金融信息工程</option>
+                        <option value="集成电路">集成电路</option>
+                        <option value="移动云计算（苏州）">移动云计算（苏州）</option>
                     </select>
                 </td>
             </tr>
@@ -773,11 +784,11 @@ if(request.getAttribute("applicationInfo") != null) {
                 <td align="left">
                     <select name="adjustSpeciality3" id="adjustSpeciality3"
                             style="width:220px;">
-                        <option value="20001">软件工程</option>
-                        <option value="20002">业务分析</option>
-                        <option value="20003">金融信息工程</option>
-                        <option value="20004">集成电路</option>
-                        <option value="20005">移动云计算（苏州）</option>
+                        <option value="软件工程">软件工程</option>
+                        <option value="业务分析">业务分析</option>
+                        <option value="金融信息工程">金融信息工程</option>
+                        <option value="集成电路">集成电路</option>
+                        <option value="移动云计算（苏州）">移动云计算（苏州）</option>
 
                     </select>
                 </td>
@@ -787,8 +798,8 @@ if(request.getAttribute("applicationInfo") != null) {
                 <td align="left">
                     <select name="allowChangeSpeciality" id="allowChangeSpeciality"
                             style="width:220px;">
-                        <option value="1">是</option>
-                        <option value="0">否</option>
+                        <option value="是">是</option>
+                        <option value="否">否</option>
                     </select>
                 </td>
             </tr>

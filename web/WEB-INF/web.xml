@@ -124,4 +124,30 @@
         <url-pattern>/findpwd.se</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>Csv</servlet-name>
+        <servlet-class>chb.admin.Csv</servlet-class>
+        <init-param>
+            <param-name>path.datasource.config</param-name>
+            <param-value>xml/datasource.config.xml</param-value>
+        </init-param>
+        <init-param>
+            <param-name>path.csv.error.log</param-name>
+            <param-value>log/csv.error.log</param-value>
+        </init-param>
+        <init-param>
+            <param-name>directory.csv.tmp</param-name>
+            <param-value>csvs</param-value>
+        </init-param>
+        <init-param>
+            <param-name>path.csv.config</param-name>
+            <param-value>xml/csv.config.xml</param-value>
+        </init-param>
+
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Csv</servlet-name>
+        <url-pattern>/csv.se</url-pattern>
+    </servlet-mapping>
+
 </web-app>

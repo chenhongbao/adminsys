@@ -2,11 +2,11 @@
 
 <config>
     <email>
-        <hostname value="smtp.mail.yahoo.com.cn" />
-        <fromemail value="microcore@yahoo.com.cn" />
-        <fromname value="webmaster" />
-        <user value="microcore" />
-        <password value="19871013" />
-        <subject value="XJTUSE Webmaster" />
+        <hostname value="smtp.xjtu.edu.cn" />
+        <fromemail value="mse@xjtu.edu.cn" />
+        <fromname value="软件学院" />
+        <user value="mse" />
+        <password value="se82663410" />
+        <subject value="XJTUSE" />
     </email>
 </config>

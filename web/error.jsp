@@ -20,6 +20,8 @@
 
                 <div style="width: 353px; height: 25px; float: left;"></div>
                 <div style="width: auto; height: 13px; float: right;">
+                    <a style="font-size: 13px;color: #333333;" href="http://se.xjtu.edu.cn/"
+                       target="_blank">学院主页&nbsp;|</a>
                     <a style="font-size: 13px;color: #333333;"
                        href="javascript:window.external.AddFavorite('http://se.xjtu.edu.cn','西安交通大学软件学院')"
                        target="_top">加入收藏&nbsp;|</a>

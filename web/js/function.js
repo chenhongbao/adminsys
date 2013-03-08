@@ -101,6 +101,38 @@ function checkInputField() {
         return false;
     }
 
+    /**
+     * Check the points and they need to be consistent.
+     * @type {HTMLElement}
+     */
+    var totalPont = document.getElementById("totalPoint");
+    var politicalPoint = document.getElementById("politicalPoint");
+    var englishPoint = document.getElementById("englishPoint");
+    var specialityOnePoint = document.getElementById("specialityOnePoint");
+    var specialityTwoPoint = document.getElementById("specialityTwoPoint");
+    if(totalPont && politicalPoint && englishPoint
+        && specialityOnePoint && specialityTwoPoint) {
+        var total = parseFloat(totalPont.value);
+        var pol = parseFloat(politicalPoint.value);
+        var eng = parseFloat(englishPoint.value);
+        var spe1 = parseFloat(specialityOnePoint.value);
+        var spe2 = parseFloat(specialityTwoPoint.value);
+
+        if(total != (pol + eng + spe1 + spe2)) {
+            alert("考研成绩总分与填写分数不匹配，请修改。");
+            return false;
+        }
+
+    }
+
+    var identityNo = document.getElementById("identityNo");
+    if(identityNo.value.length != 18 && identityNo.value.length != 6
+        && identityNo.value.length != 7 && identityNo.value.length != 8) {
+
+        alert("证件号位数错误，请修改。");
+        return false;
+    }
+
     return true;
 }
 

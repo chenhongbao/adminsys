@@ -47,7 +47,7 @@ public class FindPwd extends AServlet {
             return;
         }
 
-        String message = "Dear applicant, your password in admission system for XJTU soft engineering school is :"
+        String message = "Dear applicant, your password in admission system for XJTU software engineering school is :"
                 + pwd +"\n\r";
         message += toname +"，你好。你在西安交通大学软件学院招生系统的登陆密码是："+ pwd + "。";
 
