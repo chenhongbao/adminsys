@@ -71,6 +71,8 @@
                                 <input type="submit" name="getemail" value="获取密码" />
                             </p>
                        </form>
+                       <br>
+                       <span style="color: red; font-weight: bold;">包含密码信息的邮件将会被发送到注册时填写的邮箱，请及时查收。</span>
                    </div>
         </td>
     </tr>
