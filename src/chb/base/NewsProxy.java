@@ -9,9 +9,10 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-public class NewsProxy extends DataProxy{
+public class NewsProxy extends DataProxy {
 
-    public NewsProxy() { }
+    public NewsProxy() {
+    }
 
     public NewsProxy(String cpath) {
         setConfigPath(cpath);
@@ -19,19 +20,25 @@ public class NewsProxy extends DataProxy{
 
     /**
      * Query all the news.
-     * @return  a list containing all the news leads
+     *
+     * @return a list containing all the news leads
      */
     public List<NewsLead> queryALLNews() {
-         String query = "SELECT authorName, authorEmail, authorTelephone, title, content, createTime, updateTime FROM news";
+        String query = "SELECT authorName, authorEmail, authorTelephone, title, content, createTime, updateTime FROM news";
         String url = buildConnectionString();
         String class_name = "com.mysql.jdbc.Driver";
 
         List<NewsLead> list = new ArrayList<NewsLead>();
 
         Connection conn = getConnection(url, class_name);
+        if (conn == null) {
+            this.errorLogFile.log(LoggingProxy.INFO, "[---]Can't connect to database. " + url);
+            return null;
+        }
+
         try {
             Statement stat = conn.createStatement();
-            if(stat == null) {
+            if (stat == null) {
                 this.errorLogFile.log(LoggingProxy.ERROR,
                         "[---]NewsProxy error. queryAllNews. Database query error. " +
                                 "Create statement returns null.");
@@ -39,7 +46,7 @@ public class NewsProxy extends DataProxy{
             }
             ResultSet set = stat.executeQuery(query);
 
-            while(set.next()) {
+            while (set.next()) {
                 NewsLead lead = new NewsLead();
 
                 lead.setAuthorName(set.getString("authorName"));
@@ -55,35 +62,40 @@ public class NewsProxy extends DataProxy{
 
             return list;
 
-        }catch (SQLException e) {
-              this.errorLogFile.log(LoggingProxy.ERROR,
-                      "[---]NewsProxy error. queryAllNews. Database query error. "
-                              + e.getMessage());
+        } catch (SQLException e) {
+            this.errorLogFile.log(LoggingProxy.ERROR,
+                    "[---]NewsProxy error. queryAllNews. Database query error. "
+                            + e.getMessage());
             return null;
         }
     }
 
     /**
      * Query one single piece of news.
+     *
      * @param title the title of the news to be queried.
      * @return NewsLead instance
      */
     public NewsLead querySingleNews(String title) {
         String query = "SELECT authorName, authorEmail, authorTelephone, "
-                +"title, content, createTime, updateTime FROM news "
-                +"WHERE title=\'" + title + "\'";
+                + "title, content, createTime, updateTime FROM news "
+                + "WHERE title=\'" + title + "\'";
         String url = buildConnectionString();
         String class_name = "com.mysql.jdbc.Driver";
 
         NewsLead lead = null;
 
         Connection conn = getConnection(url, class_name);
+        if (conn == null) {
+            this.errorLogFile.log(LoggingProxy.INFO, "[---]Can't connect to database. " + url);
+            return null;
+        }
 
         try {
             Statement stat = conn.createStatement();
             ResultSet set = stat.executeQuery(query);
 
-            while(set.next()) {
+            while (set.next()) {
                 lead = new NewsLead();
 
                 lead.setAuthorName(set.getString("authorName"));
@@ -100,7 +112,7 @@ public class NewsProxy extends DataProxy{
 
             return lead;
 
-        }catch (SQLException e) {
+        } catch (SQLException e) {
             this.errorLogFile.log(LoggingProxy.ERROR,
                     "[---]NewsProxy error. querySingleNews. Database query error. "
                             + e.getMessage());
@@ -132,7 +144,10 @@ public class NewsProxy extends DataProxy{
         String class_name = "com.mysql.jdbc.Driver";
         Connection conn = getConnection(url, class_name);
 
-        this.errorLogFile.log(LoggingProxy.INFO, query);
+        if (conn == null) {
+            this.errorLogFile.log(LoggingProxy.INFO, "[---]Can't connect to database. " + url);
+            return false;
+        }
 
         try {
             Statement stat = conn.createStatement();
@@ -141,7 +156,7 @@ public class NewsProxy extends DataProxy{
             conn.close();
 
             return true;
-        }catch (SQLException e) {
+        } catch (SQLException e) {
             this.errorLogFile.log(LoggingProxy.ERROR,
                     "[---]NewsProxy error. querySingleNews. Database query error. "
                             + e.getMessage() + " " + query);
