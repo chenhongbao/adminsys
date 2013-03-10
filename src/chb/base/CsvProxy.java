@@ -22,6 +22,7 @@ public class CsvProxy extends DataProxy {
 
     protected File csvConfigFile = null;
     protected File csvTmpDirectoty = null;
+    protected List<String> labels = new LinkedList<String>();
 
     public CsvProxy(String cpath) {
         super(cpath);
@@ -71,6 +72,9 @@ public class CsvProxy extends DataProxy {
                             query += ",";
                         }
 
+                        /* Add column labels to the list an display in csv file. */
+                        this.labels.add(m.getNamedItem("label").getNodeValue());
+
                         break;
                     }
                 }
@@ -111,6 +115,23 @@ public class CsvProxy extends DataProxy {
         ResultSet set = null;
         List<String> cols = new LinkedList<String>();
         List<DataLead> leads = new LinkedList<DataLead>();
+
+        /* The first row should be column name. */
+        DataLead title = new DataLead();
+        for (int k = 0; k < this.labels.size(); ++ k) {
+            if(this.labels.get(k).equals("专业课一名称")) {
+                title.add("专业课1");
+                k += 1;
+                continue;
+            } else if(this.labels.get(k).equals("专业课二名称")) {
+                title.add("专业课2");
+                k += 1;
+                continue;
+            }else {
+                title.add(this.labels.get(k));
+            }
+        }
+        leads.add(title);
 
         try {
             Statement stat = conn.createStatement();
