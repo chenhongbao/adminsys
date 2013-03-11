@@ -91,8 +91,8 @@ function checkInputField() {
             /**
              * Clean the text and deprive all the commas and colons.
              */
-            list.item(i).value = list.item(i).value.replace(",", "，");
-            list.item(i).value = list.item(i).value.replace(";", "；");
+            list.item(i).value = list.item(i).value.replace(/[,]/g, "，");
+            list.item(i).value = list.item(i).value.replace(/[;]/g, "；");
         }
     }
     if (!valid) {
