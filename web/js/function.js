@@ -87,6 +87,12 @@ function checkInputField() {
                 e.style.textDecoration = "none";
                 e.style.color = "#000000";
             }
+
+            /**
+             * Clean the text and deprive all the commas and colons.
+             */
+            list.item(i).value = list.item(i).value.replace(",", "，");
+            list.item(i).value = list.item(i).value.replace(";", "；");
         }
     }
     if (!valid) {
@@ -96,7 +102,7 @@ function checkInputField() {
     // Check the pwd and confirmPwd and they must be the same.
     var pwd = document.getElementById("pwd");
     var cpwd = document.getElementById("confirmPwd");
-    if(pwd && pwd && pwd.value != cpwd.value) {
+    if (pwd && pwd && pwd.value != cpwd.value) {
         alert("两次输入的密码不同，请修正。");
         return false;
     }
@@ -110,7 +116,7 @@ function checkInputField() {
     var englishPoint = document.getElementById("englishPoint");
     var specialityOnePoint = document.getElementById("specialityOnePoint");
     var specialityTwoPoint = document.getElementById("specialityTwoPoint");
-    if(totalPont && politicalPoint && englishPoint
+    if (totalPont && politicalPoint && englishPoint
         && specialityOnePoint && specialityTwoPoint) {
         var total = parseFloat(totalPont.value);
         var pol = parseFloat(politicalPoint.value);
@@ -118,7 +124,7 @@ function checkInputField() {
         var spe1 = parseFloat(specialityOnePoint.value);
         var spe2 = parseFloat(specialityTwoPoint.value);
 
-        if(total != (pol + eng + spe1 + spe2)) {
+        if (total != (pol + eng + spe1 + spe2)) {
             alert("考研成绩总分与填写分数不匹配，请修改。");
             return false;
         }
@@ -126,7 +132,7 @@ function checkInputField() {
     }
 
     var identityNo = document.getElementById("identityNo");
-    if(identityNo.value.length != 18 && identityNo.value.length != 6
+    if (identityNo.value.length != 18 && identityNo.value.length != 6
         && identityNo.value.length != 7 && identityNo.value.length != 8) {
 
         alert("证件号位数错误，请修改。");
@@ -137,9 +143,8 @@ function checkInputField() {
 }
 
 
-
 function isIeBrowser() {
-    if(navigator.userAgent.indexOf('MSIE') > 0) {
+    if (navigator.userAgent.indexOf('MSIE') > 0) {
         return true;
     } else {
         return false;
@@ -147,7 +152,7 @@ function isIeBrowser() {
 }
 
 function isFfBrowser() {
-    if(navigator.userAgent.indexOf('Firefox') > 0) {
+    if (navigator.userAgent.indexOf('Firefox') > 0) {
         return true;
     } else {
         return false;
