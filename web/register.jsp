@@ -30,7 +30,21 @@
 
             while (it.hasNext()) {
             Map.Entry<String, String> e = it.next();
-            out.print(e.getKey() + ":" + "\"" + e.getValue() + "\"");
+            /* No new line is allowed. */
+            String k = e.getKey().replace("\n", "");
+            String v = e.getValue();
+            if(v == null) {
+                 v = "";
+            } else {
+                /* Textarea's new line is noted by charCode(13). */
+                v = v.replace("\r\n", "\\n");
+                v = v.replace("\n\r", "\\n");
+                v = v.replace("\n", "\\n");
+                if(v == null) {
+                     v = "";
+                }
+            }
+            out.print(k + ":" + "\"" + v + "\"");
             if(it.hasNext()) {
             out.print(",");
             }

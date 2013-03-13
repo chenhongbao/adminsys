@@ -55,6 +55,11 @@ function checkInputField() {
     var valid = true;
     var list = document.getElementsByTagName("input");
     for (var i = 0; i < list.length; i = i + 1) {
+
+        if(list.item(i).getAttribute("name") == "unitPhone"
+            || list.item(i).getAttribute("name") == "unitPostalCode") {
+            continue;
+        }
         if (list.item(i).type.toLocaleUpperCase() != "TEXT"
             && list.item(i).type.toLocaleUpperCase() != "PASSWORD") {
             continue;
@@ -137,6 +142,12 @@ function checkInputField() {
 
         alert("证件号位数错误，请修改。");
         return false;
+    }
+
+    var comment = document.getElementById("comment");
+    if(comment && comment.value) {
+        /* str.replace(/\r\n/gi, newString); */
+        comment.value = comment.value.replace(/[(\r\n)\n]/g, "\\n");
     }
 
     return true;
