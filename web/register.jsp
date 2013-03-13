@@ -140,10 +140,11 @@ if(request.getAttribute("applicationInfo") != null) {
             var elem = document.getElementById(tagname);
             if(elem) {
                 if(elem.tagName.toUpperCase() == "SELECT") {
-                    var nodes = elem.childNodes;
+                    var nodes = elem.options;
                     for(var j=0; j<nodes.length; j = j+1) {
                         if(nodes[j].value == value) {
-                            nodes[j].setAttribute("selected", "selected");
+                            nodes[j].selected = true;
+                            break;
                         }
                     }
                 } else if(elem.tagName.toUpperCase() == "INPUT") {
@@ -175,6 +176,7 @@ if(request.getAttribute("applicationInfo") != null) {
 <script type="text/javascript" defer="defer">
     window.onload = setDefaultView;
     setDefaultView();
+    setTimeout("setDefaultView()", 1000);
 
 </script>
 <!-- Give '?top=1', will show the top banner, other value will hid the banner. -->

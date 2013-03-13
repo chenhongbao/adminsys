@@ -32,22 +32,22 @@ td, th {
 }
 
 a:link {
-    color: #579435;
+    color: #1a3139;
     TEXT-DECORATION: none;
 }
 
 a:visited {
-    color: #579435;
+    color: #1a3139;
     TEXT-DECORATION: none;
 }
 
 a:hover {
-    color: #FF7800;
+    color: #5f615a;
     TEXT-DECORATION: none;
 }
 
 a:active {
-    color: #FF7800;
+    color: #5f615a;
     TEXT-DECORATION: none;
 }
 

@@ -151,11 +151,25 @@ public class CsvProxy extends DataProxy {
                     if(cols.get(i).equals("specialityOneName")
                             || cols.get(i).equals("specialityTwoName")) {
 
-                        lead.add(set.getString(cols.get(i))+" "+set.getString(cols.get(i+1)));
+                        /* If the field is empty, fill the csv with 'wu'. */
+                        String v1 = set.getString(cols.get(i));
+                        String v2 = set.getString(cols.get(i+1));
+                        if(v1 == null) {
+                            v1 = "无";
+                        }
+                        if(v2 == null) {
+                            v2 = "无";
+                        }
+
+                        lead.add(v1 +" "+ v2);
                         i += 1;
 
                     } else {
-                        lead.add(set.getString(cols.get(i)));
+                        String t = set.getString(cols.get(i));
+                        if(t == null) {
+                            t = "无";
+                        }
+                        lead.add(t);
                     }
                 }
 

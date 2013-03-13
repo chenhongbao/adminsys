@@ -106,8 +106,6 @@ public class CsvAllProxy extends DataProxy {
         String class_name = "com.mysql.jdbc.Driver";
         Connection conn = getConnection(url, class_name);
 
-        errorLogFile.log(LoggingProxy.ERROR, url);
-
         if (conn == null) {
             errorLogFile.log(LoggingProxy.ERROR, "[---]Can't get database connection. " +
                     "Returns null.");
@@ -138,7 +136,12 @@ public class CsvAllProxy extends DataProxy {
             while (set.next()) {
                 DataLead lead = new DataLead();
                 for (int i = 0; i < cols.size(); ++i) {
-                    lead.add(set.getString(cols.get(i)));
+
+                    String t = set.getString(cols.get(i));
+                    if(t == null) {
+                        t = "无";
+                    }
+                    lead.add(t);
                 }
 
                 leads.add(lead);
@@ -204,7 +207,15 @@ public class CsvAllProxy extends DataProxy {
              */
             for (DataLead l : leads) {
                 for (int i = 0; i < l.size(); ++i) {
-                    osw.write(l.get(i));
+                    /**
+                     * If the value is null, use 'wu' instead.
+                     */
+                    String t = l.get(i);
+                    if(t == null) {
+                        t = "无";
+                    }
+
+                    osw.write(t);
                     if (i < l.size() - 1) {
                         osw.write(",");
                     }
