@@ -146,6 +146,10 @@ function checkInputField() {
 
     var comment = document.getElementById("comment");
     if(comment && comment.value) {
+        if(comment.value.length > 199) {
+            alert("备注和自我评价的内容过长，请修改。");
+            return false;
+        }
         /* str.replace(/\r\n/gi, newString); */
         comment.value = comment.value.replace(/[(\r\n)\n]/g, "\\n");
     }

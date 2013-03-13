@@ -469,7 +469,7 @@ if(request.getAttribute("applicationInfo") != null) {
                 </td>
             </tr>
             <tr>
-                <td align="left"><span id="commentLabel">备注和自我评价</span></td>
+                <td align="left"><span id="commentLabel">备注和自我评价</span><span style="color: #dc143c;">（不多于200字）</span></td>
                 <td align="left"></td>
                 <td align="left"></td>
                 <td align="left"></td>
