@@ -18,13 +18,13 @@ import java.sql.*;
 import java.util.LinkedList;
 import java.util.List;
 
-public class CsvProxy extends DataProxy {
+public class CsvAllProxy extends DataProxy {
 
     protected File csvConfigFile = null;
     protected File csvTmpDirectoty = null;
     protected List<String> labels = new LinkedList<String>();
 
-    public CsvProxy(String cpath) {
+    public CsvAllProxy(String cpath) {
         super(cpath);
     }
 
@@ -121,17 +121,7 @@ public class CsvProxy extends DataProxy {
         /* The first row should be column name. */
         DataLead title = new DataLead();
         for (int k = 0; k < this.labels.size(); ++ k) {
-            if(this.labels.get(k).equals("专业课一名称")) {
-                title.add("专业课1");
-                k += 1;
-                continue;
-            } else if(this.labels.get(k).equals("专业课二名称")) {
-                title.add("专业课2");
-                k += 1;
-                continue;
-            }else {
-                title.add(this.labels.get(k));
-            }
+            title.add(this.labels.get(k));
         }
         leads.add(title);
 
@@ -148,15 +138,7 @@ public class CsvProxy extends DataProxy {
             while (set.next()) {
                 DataLead lead = new DataLead();
                 for (int i = 0; i < cols.size(); ++i) {
-                    if(cols.get(i).equals("specialityOneName")
-                            || cols.get(i).equals("specialityTwoName")) {
-
-                        lead.add(set.getString(cols.get(i))+" "+set.getString(cols.get(i+1)));
-                        i += 1;
-
-                    } else {
-                        lead.add(set.getString(cols.get(i)));
-                    }
+                    lead.add(set.getString(cols.get(i)));
                 }
 
                 leads.add(lead);

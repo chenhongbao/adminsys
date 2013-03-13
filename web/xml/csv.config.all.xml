@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<config>
+    <csv>
+        <column rank="1" label="考生编号" name="admitCardNo"/>
+        <column rank="2" label="姓名" name="name"/>
+        <column rank="3" label="性别" name="sex"/>
+        <column rank="4" label="生日" name="birthday"/>
+        <column rank="5" label="民族" name="people"/>
+        <column rank="6" label="证件类型" name="identity"/>
+        <column rank="7" label="证件号码" name="identityNo"/>
+        <column rank="8" label="政治面貌" name="political"/>
+        <column rank="9" label="籍贯" name="location"/>
+
+
+        <column rank="10" label="联系电话" name="phone"/>
+        <column rank="11" label="手机号码" name="mobile"/>
+        <column rank="12" label="电子邮箱" name="email"/>
+        <column rank="13" label="邮编" name="postalCode"/>
+        <column rank="14" label="通信地址" name="address"/>
+        <column rank="15" label="人事档案管理单位名称" name="unitName"/>
+        <column rank="16" label="人事档案管理单位地址" name="unitAddress"/>
+        <column rank="17" label="档案联系电话" name="unitPhone"/>
+        <column rank="18" label="邮编" name="unitPostalCode"/>
+
+
+        <column rank="19" label="是否应届生" name="newOrOld"/>
+        <column rank="20" label="培养模式" name="allDay"/>
+        <column rank="21" label="考试类型" name="examType"/>
+        <column rank="22" label="学历" name="education"/>
+
+        <column rank="23" label="准考证号" name="admitCardNo"/>
+        <column rank="24" label="第一志愿报考院校名称" name="firstChoiceCollegeName"/>
+        <column rank="25" label="第一志愿报考院校邮编" name="firstChoiceCollegePostalCode"/>
+        <column rank="26" label="第一志愿报考院校地址" name="firstChoiceCollegeAddress"/>
+        <column rank="27" label="第一志愿专业类别代码" name="firstChoiceSpecialityTypeCode"/>
+
+
+        <column rank="28" label="第一志愿报考专业名称" name="firstChoiceSpecialityName"/>
+        <column rank="29" label="第一志愿报考专业代码" name="firstChoiceSpecialityCode"/>
+        <column rank="30" label="第一志愿专业类别名称" name="firstChoiceSpecialityTypeName"/>
+
+
+        <column rank="31" label="政治成绩" name="politicalPoint"/>
+        <column rank="32" label="政治科目代码" name="zzcode"/>
+        <column rank="33" label="英语成绩" name="englishPoint"/>
+        <column rank="34" label="英语科目代码" name="yycode"/>
+        <column rank="35" label="专业一名称" name="specialityOneName"/>
+
+        <column rank="36" label="专业一成绩" name="specialityOnePoint"/>
+        <column rank="37" label="专业一科目代码" name="zyycode"/>
+        <column rank="38" label="专业二名称" name="specialityTwoName"/>
+        <column rank="39" label="专业二成绩" name="specialityTwoPoint"/>
+        <column rank="40" label="专业二科目代码" name="zyecode"/>
+        <column rank="41" label="总分" name="totalPoint"/>
+
+
+        <column rank="42" label="本科院校名称" name="graduateSchoolName"/>
+        <column rank="43" label="本科专业名称" name="graduateSpecialityName"/>
+        <column rank="44" label="本科专业类别名称" name="graduateSpecialityType"/>
+        <column rank="45" label="本科毕业时间" name="graduateTime"/>
+        <column rank="46" label="所获学位类别" name="bachelorType"/>
+        <column rank="47" label="获得学位时间" name="getBachelorTime"/>
+
+
+        <column rank="48" label="志愿一" name="adjustSpeciality"/>
+        <column rank="49" label="志愿二" name="adjustSpeciality2"/>
+        <column rank="50" label="志愿三" name="adjustSpeciality3"/>
+        <column rank="51" label="是否服从调剂" name="allowChangeSpeciality"/>
+
+
+        <column rank="52" label="注册时间" name="createTime"/>
+        <column rank="53" label="修改时间" name="updateTime"/>
+    </csv>
+</config>
+
