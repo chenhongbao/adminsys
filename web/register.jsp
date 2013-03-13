@@ -173,11 +173,8 @@ if(request.getAttribute("applicationInfo") != null) {
 <!-- Call the method after the whole page is loaded. -->
 <!-- Detect the type of the browser for compatibility. -->
 <script type="text/javascript" defer="defer">
-    if ((navigator.userAgent.indexOf('MSIE') >= 0) && (navigator.userAgent.indexOf('Opera') < 0)) {
-        setDefaultView();
-    } else if (navigator.userAgent.indexOf('Firefox') >= 0){
-        window.onload = setDefaultView;
-    }
+    window.onload = setDefaultView;
+    setDefaultView();
 
 </script>
 <!-- Give '?top=1', will show the top banner, other value will hid the banner. -->
