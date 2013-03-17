@@ -126,6 +126,11 @@ public class News extends AServlet {
         }
 
         /**
+         * Sort the NewsLead by their updateTime.
+         */
+        Collections.sort(list, new ComparatorNewsByUpdateTime());
+
+        /**
          * Limit the number of the returned news leads.
          */
         if (num >= 0) {
@@ -134,11 +139,6 @@ public class News extends AServlet {
             }
             list = list.subList(0, num);
         }
-
-        /**
-         * Sort the NewsLead by their updateTime.
-         */
-        Collections.sort(list, new ComparatorNewsByUpdateTime());
 
         request.setAttribute("newsList", list);
         request.setAttribute("num", String.valueOf(num));
