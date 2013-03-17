@@ -154,6 +154,36 @@ function checkInputField() {
         comment.value = comment.value.replace(/[(\r\n)\n]/g, "\\n");
     }
 
+
+    /**
+     * See whether the scores have met the standard.
+     */
+    var pp = document.getElementById("politicalPoint");
+    if(pp && parseFloat(pp.value) < 45) {
+        alert("您的政治成绩没有达到要求，不能注册。");
+        return false;
+    }
+    pp = document.getElementById("englishPoint");
+    if(pp && parseFloat(pp.value) < 45) {
+        alert("您的英语成绩没有达到要求，不能注册。");
+        return false;
+    }
+    pp = document.getElementById("specialityOnePoint");
+    if(pp && parseFloat(pp.value) < 75) {
+        alert("您的专业一成绩没有达到要求，不能注册。");
+        return false;
+    }
+    pp = document.getElementById("specialityTwoPoint");
+    if(pp && parseFloat(pp.value) < 75) {
+        alert("您的专业二成绩没有达到要求，不能注册。");
+        return false;
+    }
+    pp = document.getElementById("totalPoint");
+    if(pp && parseFloat(pp.value) < 300) {
+        alert("您的总分没有达到要求，不能注册。");
+        return false;
+    }
+
     return true;
 }
 
