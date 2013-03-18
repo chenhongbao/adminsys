@@ -80,7 +80,7 @@ public class CsvAllProxy extends DataProxy {
                 }
             }
 
-            query += " FROM register_info";
+            query += " FROM register_info,application_info where register_info.identityNo=application_info.identityNo";
             return query;
 
         } catch (Exception e) {

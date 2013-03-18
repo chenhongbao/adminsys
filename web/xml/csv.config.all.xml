@@ -7,8 +7,8 @@
         <column rank="3" label="性别" name="sex"/>
         <column rank="4" label="生日" name="birthday"/>
         <column rank="5" label="民族" name="people"/>
-        <column rank="6" label="证件类型" name="identity"/>
-        <column rank="7" label="证件号码" name="identityNo"/>
+        <column rank="6" label="证件类型" name="register_info.identity"/>
+        <column rank="7" label="证件号码" name="register_info.identityNo"/>
         <column rank="8" label="政治面貌" name="political"/>
         <column rank="9" label="籍贯" name="location"/>
 
@@ -70,7 +70,9 @@
 
 
         <column rank="52" label="注册时间" name="createTime"/>
-        <column rank="53" label="修改时间" name="updateTime"/>
+        <column rank="53" label="修改时间" name="register_info.updateTime"/>
+        <column rank="54" label="审核状态" name="status"/>
+
     </csv>
 </config>
 

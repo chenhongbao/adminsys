@@ -203,3 +203,31 @@ BEGIN
 END //
 
 DELIMITER ;
+
+CREATE VIEW IF NOT EXISTS V4
+  AS SELECT a.*, b.status,b.specialityOneName2nd,b.specialityOnePoint2nd,
+  b.specialityTwoName2nd,b.specialityTwoPoint2nd,b.specialityThreeName2nd,
+  b.specialityThreePoint2nd,b.specialityFourName2nd,b.specialityFourPoint2nd,
+  b.interviewPoint,b.listeningPoint
+  FROM register_info a,application_info b
+  where a.identityNo=b.identityNo;
+
+delimiter //
+
+create procedure set_status(in cardNo varchar(50) charset utf8,in nam varchar(50) charset utf8,in stat varchar(50) charset utf8,out res int)
+begin
+
+declare idNo varchar(50);
+select identityNo into idNo from register_info where register_info.`admitCardNo` = cardNo and register_info.`name` = nam;
+
+if idNo is null then
+  set res = 0;
+else
+  set res= 1; /* successful */
+  update application_info set application_info.status = stat where identityNo = idNo;
+end if;
+
+end; //
+
+delimiter ;
+
