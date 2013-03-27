@@ -39,9 +39,20 @@ public class SetStatus {
                 stat.setString(2, e.getValue());
                 stat.setString(3, args[1]);
                 stat.registerOutParameter(4, Types.INTEGER);
-
-                stat.execute();
                 System.out.println(e.getKey() +"," + e.getValue() +"," +args[1] + ",@res");
+
+                try {
+                stat.execute();
+                } catch (SQLException ex) {
+                    fail_cnt += 1;
+                    fail_str += e.getKey() + "," + e.getValue() + "\n";
+                    stat.clearParameters();
+
+                    ex.printStackTrace();
+
+                    continue;
+                }
+
 
                 int res = stat.getInt(4);
                 System.out.println(res);
