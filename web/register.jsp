@@ -368,6 +368,11 @@ if(request.getAttribute("applicationInfo") != null) {
                 <td align="left"><input name="mobile" value="" id="mobile" type="text"></td>
             </tr>
             <tr>
+                <td></td><td align="left" colspan="3">
+                    <span style="font-size: 11px;color: #a52a2a;">联系电话和手机号码必须正确，否则我们无法联系到你。</span>
+                </td>
+            </tr>
+            <tr>
                 <td align="right"><span id="emailLabel">电子邮箱：</span></td>
                 <td align="left"><input name="email" value="" id="email"
                                         type="text"></td>
@@ -440,7 +445,7 @@ if(request.getAttribute("applicationInfo") != null) {
             </td></tr>
             <tr>
                 <td></td><td></td><td></td>
-                <td align="right"><span style="color: #dc143c;">（不多于200字）</span></td>
+                <td align="right"><span style="font-size: 11px;color: #a52a2a;">（不多于200字）</span></td>
             </tr>
             </tbody>
         </table>
