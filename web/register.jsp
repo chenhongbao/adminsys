@@ -233,10 +233,10 @@ if(request.getAttribute("applicationInfo") != null) {
         <table>
             <tbody>
             <tr>
-                <td align="left"><span id="nameLabel">姓名</span></td>
+                <td align="right"><span id="nameLabel">姓名：</span></td>
                 <td align="left"><input name="name" value="" id="name" type="text">
                 </td>
-                <td align="left"><span id="sexLabel">性别</span></td>
+                <td align="right"><span id="sexLabel">性别：</span></td>
                 <td align="left"><select name="sex" id="sex" style="width:100%;">
                     <option value="男">男</option>
                     <option value="女">女</option>
@@ -245,10 +245,11 @@ if(request.getAttribute("applicationInfo") != null) {
                 </td>
             </tr>
             <tr>
-                <td align="left"><span id="birthdayLabel">出生日期</span></td>
-                <td align="left"><input name="birthday" value="" id="birthday"
-                                        type="text"></td>
-                <td align="left"><span id="peopleLabel">民族</span></td>
+                <td align="right"><span id="locationLabel">籍贯：</span></td>
+                <td align="left">
+                    <input name="location" value="" id="location" type="text" />
+                </td>
+                <td align="right"><span id="peopleLabel">民族：</span></td>
                 <td align="left"><select name="people" id="people" style="width:100%;">
                     <option value="汉族">汉族</option>
                     <option value="蒙古族">蒙古族</option>
@@ -310,16 +311,19 @@ if(request.getAttribute("applicationInfo") != null) {
                 </select>
                 </td>
             </tr>
-            <tr><td></td><td><span style="font-size: 11px; color: #a52a2a;">日期格式:YYYY-MM-DD</span></td></tr>
             <tr>
-                <td align="left"><span id="identityLabel">证件类型</span></td>
+                <td></td>
+                <td><span style="font-size: 11px; color: #a52a2a;">籍贯格式:XX省XX市</span></td>
+            </tr>
+            <tr>
+                <td align="right"><span id="identityLabel">证件类型：</span></td>
                 <td align="left"><select name="identity" id="identity"
                                          style="width:100%;">
                     <option value="身份证">身份证</option>
                     <option value="军官证">军官证</option>
 
                 </select></td>
-                <td align="left"><span id="politicalLabel">政治面貌</span></td>
+                <td align="right"><span id="politicalLabel">政治面貌：</span></td>
                 <td align="left"><select name="political" id="political" style="width:100%;">
                     <option value="中共党员">中共党员</option>
                     <option value="共青团员">共青团员</option>
@@ -331,18 +335,16 @@ if(request.getAttribute("applicationInfo") != null) {
                 </td>
             </tr>
             <tr>
-                <td align="left"><span id="identityNoLabel">证件号码</span></td>
+                <td align="right"><span id="identityNoLabel">证件号码：</span></td>
                 <td align="left"><input name="identityNo" value="" id="identityNo"
                                         type="text" maxlength="18"></td>
-                <td align="left"><span id="locationLabel">籍贯</span></td>
-                <td align="left">
-                    <input name="location" value="" id="location" type="text" />
-                </td>
+                <td align="right"><span id="birthdayLabel">出生日期：</span></td>
+                <td align="left"><input name="birthday" value="" id="birthday"
+                                        type="text"></td>
             </tr>
             <tr>
                 <td></td><td></td><td></td>
-                <td><span style="font-size: 11px; color: #a52a2a;">籍贯格式:XX省XX市</span></td>
-            </tr>
+                <td><span style="font-size: 11px; color: #a52a2a;">日期格式:YYYY-MM-DD</span></td></tr>
             </tbody>
         </table>
         <br>
@@ -360,50 +362,31 @@ if(request.getAttribute("applicationInfo") != null) {
         <table>
             <tbody>
             <tr>
-                <td align="left"><span id="phoneLabel">联系电话</span></td>
+                <td align="right"><span id="phoneLabel">联系电话：</span></td>
                 <td align="left"><input name="phone" value="" id="phone" type="text"></td>
-                <td align="left"><span id="mobileLabel">手机号码</span></td>
+                <td align="right"><span id="mobileLabel">手机号码：</span></td>
                 <td align="left"><input name="mobile" value="" id="mobile" type="text"></td>
             </tr>
             <tr>
-                <td align="left"><span id="emailLabel">电子邮箱</span></td>
+                <td align="right"><span id="emailLabel">电子邮箱：</span></td>
                 <td align="left"><input name="email" value="" id="email"
                                         type="text"></td>
-                <td align="left"><span id="postalCodeLabel">邮编</span></td>
+                <td align="right"><span id="postalCodeLabel">邮编：</span></td>
                 <td align="left"><input name="postalCode" value="" id="postalCode" type="text"></td>
             </tr>
             <tr>
-                <td align="left"><span id="addressLabel">通信地址</span></td>
+                <td align="right"><span id="addressLabel">通信地址：</span></td>
                 <td colspan="3" align="left"><input name="address" value=""
                                                     id="address" style="width:97%;" type="text"></td>
             </tr>
-            </tbody>
-        </table>
-        <br>
-        <table>
-            <tbody>
             <tr>
-                <td align="left"><span id="unitNameLabel">人事档案管理单位名称</span></td>
+                <td align="left"><span id="unitNameLabel">所在单位：</span></td>
                 <td colspan="3" align="left"><input name="unitName" value="" id="unitName"
                                                     style="width:97%;" type="text"></td>
             </tr>
-            <tr>
-                <td align="left"><span id="unitAddressLabel">人事档案管理单位地址</span></td>
-                <td colspan="3" align="left"><input name="unitAddress" value=""
-                                                    id="unitAddress" style="width:97%;" type="text"></td>
-            </tr>
-            <tr>
-                <td align="left"><span id="unitPhoneLabel">联系电话</span></td>
-                <td colspan="1" align="left"><input name="unitPhone" value="" id="unitPhone"
-                                                    type="text"></td>
-                <td align="left"><span id="unitPostalCodeLabel">邮编</span></td>
-                <td colspan="1" align="left"><input name="unitPostalCode" value=""
-                                                    id="unitPostalCode" type="text"></td>
-            </tr>
             </tbody>
         </table>
         <br>
-
     </fieldset>
 </div>
 <br>
@@ -424,10 +407,10 @@ if(request.getAttribute("applicationInfo") != null) {
                 if(request.getAttribute("userInfo") == null) {
             %>
             <tr>
-                <td align="left"><span id="pwdLabel">密码</span></td>
+                <td align="right"><span id="pwdLabel">密码：</span></td>
                 <td align="left"><input name="pwd" id="pwd" value=""
                                         type="password"></td>
-                <td align="left"><span id="confirmPwdLabel">确认密码</span></td>
+                <td align="right"><span id="confirmPwdLabel">确认密码：</span></td>
                 <td align="left"><input name="confirmPwd" id="confirmPwd"
                                         value="" type="password"></td>
             </tr>
@@ -435,47 +418,30 @@ if(request.getAttribute("applicationInfo") != null) {
                 }
             %>
             <tr>
-                <td align="left"><span id="newOrOldLabel">是否应届生</span></td>
-                <td align="left"><select name="newOrOld" id="newOrOld" style="width:100%;">
-                    <option value="应届">是</option>
-                    <option value="其他">否</option>
-                </select>
-                </td>
-                <td align="left"><span id="allDayLabel">培养模式</span></td>
-                <td align="left"><select name="allDay" id="allDay"
-                                         style="width:100%;">
-                    <option value="全日制">全日制</option>
-                    <option value="非全日制">非全日制</option>
-                </select>
-                </td>
-            </tr>
-            <tr>
-                <td align="left"><span id="examTypeLabel">考试类型</span></td>
-                <td align="left">
-                    <select name="examType" id="examType"
-                            style="width:100%;">
-                        <option value="统考">全国统考</option>
-                        <option value="联考">全国联考</option>
-                        <option value="自主招生">自主招生</option>
-
-                    </select>
-                </td>
-                <td align="left"><span id="educationLabel">学历</span></td>
+                <td align="right"><span id="educationLabel">学历：</span></td>
                 <td align="left"><select name="education" id="education"
                                          style="width:100%;">
                     <option value="本科">本科</option>
                     <option value="大专">大专</option></select>
                 </td>
+                <td align="right"><span id="newOrOldLabel">是否应届：</span></td>
+                <td align="left"><select name="newOrOld" id="newOrOld" style="width:100%;">
+                    <option value="应届">是</option>
+                    <option value="其他">否</option>
+                </select>
+                </td>
             </tr>
             <tr>
-                <td align="left"><span id="commentLabel">备注和自我评价</span><span style="color: #dc143c;">（不多于200字）</span></td>
-                <td align="left"></td>
-                <td align="left"></td>
-                <td align="left"></td>
-            </tr>
-            <tr><td  align="left" colspan="4">
+                <td align="right">
+                    <span id="commentLabel">备注：</span>
+                </td>
+                <td  align="left" colspan="3">
                 <textarea name="comment" id="comment" rows="5" style="width: 100%;resize: none;" value=""></textarea>
             </td></tr>
+            <tr>
+                <td></td><td></td><td></td>
+                <td align="right"><span style="color: #dc143c;">（不多于200字）</span></td>
+            </tr>
             </tbody>
         </table>
         <br>
@@ -485,23 +451,23 @@ if(request.getAttribute("applicationInfo") != null) {
 <div>
 <br>
 
-<div id="firstChoiceCollegePanel" class="register">
+<div id="firstChoiceInfoPanel" class="register">
     <fieldset>
         <legend>
-            报考院校信息
+            第一志愿报考信息
         </legend>
         <br>
         <table>
             <tbody>
             <tr>
-                <td align="left">
-                    <span id="admitCardNoLabel">准考证号</span>
+                <td align="right">
+                    <span id="admitCardNoLabel">准考证号：</span>
                 </td>
                 <td align="left">
                     <input name="admitCardNo" value="" id="admitCardNo" type="text">
                 </td>
-                <td align="left">
-                    <span id="firstChoiceCollegeNameLabel">第一志愿报考院校名称</span>
+                <td align="right">
+                    <span id="firstChoiceCollegeNameLabel">报考院校：</span>
                 </td>
                 <td align="left">
                     <input name="firstChoiceCollegeName" value="" id="firstChoiceCollegeName"
@@ -509,49 +475,15 @@ if(request.getAttribute("applicationInfo") != null) {
                 </td>
             </tr>
             <tr>
-                <td align="left">
-                    <span id="firstChoiceCollegePostalCodeLabel">第一志愿报考院校邮编</span>
-                </td>
-                <td align="left">
-                    <input name="firstChoiceCollegePostalCode" value=""
-                           id="firstChoiceCollegePostalCode" type="text">
-                </td>
-            </tr>
-            <tr>
-                <td align="left">
-                    <span id="firstChoiceCollegeAddressLabel">第一志愿报考院校地址</span>
-                </td>
-                <td colspan="3" align="left">
-                    <input name="firstChoiceCollegeAddress" value=""
-                           id="firstChoiceCollegeAddress" style="width:97%;" type="text">
-                </td>
-            </tr>
-            </tbody>
-        </table>
-        <br>
-
-    </fieldset>
-</div>
-<br>
-
-<div id="firstChoiceSpecialityPanel" class="register">
-    <fieldset>
-        <legend>
-            报考专业信息
-        </legend>
-        <br>
-        <table>
-            <tbody>
-            <tr>
-                <td align="left">
-                    <span id="firstChoiceSpecialityNameLabel">第一志愿报考专业名称</span>
+                <td align="right">
+                    <span id="firstChoiceSpecialityNameLabel">报考专业：</span>
                 </td>
                 <td align="left">
                     <input name="firstChoiceSpecialityName" value="" id="firstChoiceSpecialityName"
                            type="text">
                 </td>
-                <td align="left">
-                    <span id="firstChoiceSpecialityCodeLabel">第一志愿报考专业代码</span>
+                <td align="right">
+                    <span id="firstChoiceSpecialityCodeLabel">专业代码：</span>
                 </td>
                 <td align="left">
                     <input name="firstChoiceSpecialityCode" value="" id="firstChoiceSpecialityCode"
@@ -559,21 +491,39 @@ if(request.getAttribute("applicationInfo") != null) {
                 </td>
             </tr>
             <tr>
+                <td align="right"><span id="examTypeLabel">考试类型：</span></td>
                 <td align="left">
-                    <span id="firstChoiceSchSpecialityTypeNameLabel">第一志愿专业类别名称</span>
+                    <select name="examType" id="examType"
+                            style="width:100%;">
+                        <option value="统考">全国统考</option>
+                        <option value="联考">全国联考</option>
+                        <option value="自主招生">自主招生</option>
+
+                    </select>
                 </td>
-                <td align="left">
-                    <input name="firstChoiceSpecialityTypeName" value=""
-                           id="firstChoiceSpecialityTypeName"
-                           type="text">
+                <td align="right"><span id="allDayLabel">培养模式：</span></td>
+                <td align="left"><select name="allDay" id="allDay"
+                                         style="width:100%;">
+                    <option value="全日制">全日制</option>
+                    <option value="非全日制">非全日制</option>
+                </select>
                 </td>
-                <td align="left">
-                    <span id="firstChoiceSpecialityTypeCodeLabel">第一志愿专业类别代码</span>
+            </tr>
+
+            <!-- Newly added according to Qin lianying's requirement. -->
+            <tr>
+                <td align="right"><span id="masterTypeLabel">学位类型：</span></td>
+                <td align="left"><select name="masterType" id="masterType"
+                                         style="width:100%;">
+                    <option value="学术型">学术型</option>
+                    <option value="专业型">专业型</option></select>
                 </td>
-                <td align="left">
-                    <input name="firstChoiceSpecialityTypeCode" value=""
-                           id="firstChoiceSpecialityTypeCode"
-                           type="text">
+                <td align="right"><span id="weipeiLabel">是否委培：</span></td>
+                <td align="left"><select name="weipeiType" id="weipeiType"
+                                         style="width:100%;">
+                    <option value="否">否</option>
+                    <option value="国防生">国防生</option>
+                    <option value="强军计划">强军计划</option></select>
                 </td>
             </tr>
             </tbody>
@@ -593,82 +543,56 @@ if(request.getAttribute("applicationInfo") != null) {
         <table>
             <tbody>
             <tr>
-                <td align="left">
-                    <span id="politicalPointLabel">政治成绩</span>
+                <td align="right">
+                    <span id="politicalPointLabel">政治：</span>
                 </td>
                 <td align="left">
                     <input name="politicalPoint" value="" id="politicalPoint"
                            type="text">
                 </td>
-                <td align="left">
-                    <span id="zzcodeLabel">政治科目代码</span>
-                </td>
-                <td align="left">
-                    <input name="zzcode" value="" id="zzcode" type="text">
-                </td>
-            </tr>
-            <tr>
-                <td align="left">
-                    <span id="englishPointLabel">英语成绩</span>
+                <td align="right">
+                    <span id="englishPointLabel">英语：</span>
                 </td>
                 <td align="left">
                     <input name="englishPoint" value="" id="englishPoint"
                            type="text">
                 </td>
-                <td align="left">
-                    <span id="yycodeLabel">英语科目代码</span>
-                </td>
-                <td align="left">
-                    <input name="yycode" value="" id="yycode" type="text">
-                </td>
             </tr>
             <tr>
-                <td align="left">
-                    <span id="specialityOneNameLabel">专业一名称</span>
+                <td align="right">
+                    <span id="specialityOneNameLabel">专业一：</span>
                 </td>
                 <td align="left">
                     <input name="specialityOneName" value="" id="specialityOneName"
                            type="text">
                 </td>
-                <td align="left">
-                    <span id="specialityOnePointLabel">专业一成绩</span>
+                <td align="right">
+                    <span id="specialityOnePointLabel">专业一成绩：</span>
                 </td>
                 <td align="left">
                     <input name="specialityOnePoint" value="" id="specialityOnePoint"
                            type="text">
                 </td>
-                <td align="left">
-                    <span id="zyycodeLabel">专业一科目代码</span>
-                </td>
-                <td align="left">
-                    <input name="zyycode" value="" id="zyycode" type="text">
-                </td>
             </tr>
             <tr>
-                <td align="left">
-                    <span id="specialityTwoNameLabel">专业二名称</span>
+                <td align="right">
+                    <span id="specialityTwoNameLabel">专业二：</span>
                 </td>
                 <td align="left">
                     <input name="specialityTwoName" value="" id="specialityTwoName"
                            type="text">
                 </td>
-                <td align="left">
-                    <span id="specialityTwoPointLabel">专业二成绩</span>
+                <td align="right">
+                    <span id="specialityTwoPointLabel">专业二成绩：</span>
                 </td>
                 <td align="left">
                     <input name="specialityTwoPoint" value="" id="specialityTwoPoint"
                            type="text">
                 </td>
-                <td align="left">
-                    <span id="zyecodeLabel">专业二科目代码</span>
-                </td>
-                <td align="left">
-                    <input name="zyecode" value="" id="zyecode" type="text">
-                </td>
             </tr>
             <tr>
-                <td align="left">
-                    <span id="totalPointLabel">总分</span>
+                <td align="right">
+                    <span id="totalPointLabel">总分：</span>
                 </td>
                 <td align="left">
                     <input name="totalPoint" value="" id="totalPoint" type="text">
@@ -685,22 +609,22 @@ if(request.getAttribute("applicationInfo") != null) {
 <div id="bachelorPanel" class="register">
     <fieldset>
         <legend>
-            本科信息
+            本科毕业信息
         </legend>
         <br>
         <table>
             <tbody>
             <tr>
-                <td align="left">
-                    <span id="graduateSchoolNameLabel">本科院校名称</span>
+                <td align="right">
+                    <span id="graduateSchoolNameLabel">毕业院校：</span>
                 </td>
                 <td align="left">
                     <input name="graduateSchoolName" value="" id="graduateSchoolName"
                            type="text">
 
                 </td>
-                <td align="left">
-                    <span id="graduateSpecialityNameLabel">本科专业名称</span>
+                <td align="right">
+                    <span id="graduateSpecialityNameLabel">本科专业：</span>
                 </td>
                 <td align="left">
                     <input name="graduateSpecialityName" value="" id="graduateSpecialityName"
@@ -708,43 +632,24 @@ if(request.getAttribute("applicationInfo") != null) {
                 </td>
             </tr>
             <tr>
-                <td align="left">
-                    <span id="graduateSpecialityTypeLabel">本科专业类别名称</span>
+                <td align="right">
+                    <span id="bachelorTypeLabel">学位类型：</span>
                 </td>
                 <td align="left">
-                    <input name="graduateSpecialityType" value="" id="graduateSpecialityType"
+                    <input name="bachelorType" value="" id="bachelorType"
                            type="text">
-
                 </td>
-                <td align="left">
-                    <span id="graduateTimeLabel">本科毕业时间</span>
+                <td align="right">
+                    <span id="graduateTimeLabel">本科毕业时间：</span>
                 </td>
                 <td align="left">
                     <input name="graduateTime" value="" id="graduateTime"
                            type="text">
                 </td>
             </tr>
-            <tr><td></td><td></td><td></td><td><span style="font-size: 11px; color: #a52a2a;">日期格式:YYYY-MM-DD</span></td></tr>
             <tr>
-                <td align="left">
-                    <span id="bachelorTypeLabel">所获学位类别</span>
-                </td>
-                <td align="left">
-                    <input name="bachelorType" value="" id="bachelorType"
-                           type="text">
-                </td>
-                <td align="left">
-                    <span id="getBachelorTimeLabel">获得学位时间</span>
-                </td>
-                <td align="left">
-                    <input name="getBachelorTime" value="" id="getBachelorTime"
-                           type="text">
-                </td>
-            </tr>
-            <tr><td></td><td></td><td></td><td><span style="font-size: 11px; color: #a52a2a;">日期格式:YYYY-MM-DD</span></td></tr>
-            <tr>
-                <td align="left"></td>
-                <td align="left"></td>
+                <td></td><td></td><td></td>
+                <td><span style="font-size: 11px; color: #a52a2a;">日期格式:YYYY-MM-DD</span></td>
             </tr>
             </tbody>
         </table>
@@ -763,8 +668,8 @@ if(request.getAttribute("applicationInfo") != null) {
         <table>
             <tbody>
             <tr>
-                <td align="left">
-                    <span id="adjustSpecialityLabel">志愿一</span>
+                <td align="right">
+                    <span id="adjustSpecialityLabel">志愿一：</span>
                 </td>
                 <td align="left">
                     <select name="adjustSpeciality"
@@ -776,8 +681,8 @@ if(request.getAttribute("applicationInfo") != null) {
                         <option value="移动云计算（苏州）">移动云计算（苏州）</option>
                     </select>
                 </td>
-                <td align="left">
-                    <span id="adjustSpeciality2Label">志愿二</span>
+                <td align="right">
+                    <span id="adjustSpeciality2Label">志愿二：</span>
                 </td>
                 <td align="left">
                     <select name="adjustSpeciality2" id="adjustSpeciality2"
@@ -791,8 +696,8 @@ if(request.getAttribute("applicationInfo") != null) {
                 </td>
             </tr>
             <tr>
-                <td align="left">
-                    <span id="adjustSpeciality3Label">志愿三</span>
+                <td align="right">
+                    <span id="adjustSpeciality3Label">志愿三：</span>
                 </td>
                 <td align="left">
                     <select name="adjustSpeciality3" id="adjustSpeciality3"
@@ -805,8 +710,8 @@ if(request.getAttribute("applicationInfo") != null) {
 
                     </select>
                 </td>
-                <td align="left">
-                    <span id="allowChangeSpecialityLabel">是否服从调剂</span>
+                <td align="right">
+                    <span id="allowChangeSpecialityLabel">服从调剂：</span>
                 </td>
                 <td align="left">
                     <select name="allowChangeSpeciality" id="allowChangeSpeciality"
@@ -818,52 +723,6 @@ if(request.getAttribute("applicationInfo") != null) {
             </tr>
             <tr style="height: 5px;">
             </tr>
-<!-- This sector might be useful, but currently applicants do not have these choices. -->
-<%--            <tr>
-                <td style="width: 20%" align="left">
-                    联合培养单位志愿
-                </td>
-                <td style="width: 30%" align="left">
-                </td>
-            </tr>
-            <tr>
-                <td style="width: 20%" align="left">
-                    <span id="ddllUnionTrainUnitLabel">联合培养志愿一</span>
-                </td>
-                <td style="width: 30%" align="left">
-                    <select name="ddllUnionTrainUnit" id="ddllUnionTrainUnit" style="width:220px;">
-                        <option value="深圳先进院">深圳先进院</option>
-                        <option value="龙芯中科">龙芯中科</option>
-                        <option value="广州海格">广州海格</option>
-                    </select>
-                </td>
-            </tr>
-            <tr>
-                <td style="width: 20%" align="left">
-                    <span id="ddllUnionTrainUnit2Label">联合培养志愿二</span>
-                </td>
-                <td style="width: 30%" align="left">
-                    <select name="ddllUnionTrainUnit2" id="ddllUnionTrainUnit2" style="width:220px;">
-                        <option value="深圳先进院">深圳先进院</option>
-                        <option value="龙芯中科">龙芯中科</option>
-                        <option value="广州海格">广州海格</option>
-
-                    </select>
-                </td>
-            </tr>
-            <tr>
-                <td style="width: 20%" align="left">
-                    <span id="ddllUnionTrainUnit3Label">联合培养志愿三</span>
-                </td>
-                <td style="width: 30%" align="left">
-                    <select name="ddllUnionTrainUnit3" id="ddllUnionTrainUnit3" style="width:220px;">
-                        <option value="深圳先进院">深圳先进院</option>
-                        <option value="龙芯中科">龙芯中科</option>
-                        <option value="广州海格">广州海格</option>
-
-                    </select>
-                </td>
-            </tr>--%>
             </tbody>
         </table>
         <br>

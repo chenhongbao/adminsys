@@ -50,6 +50,12 @@ public class Csv extends AServlet{
         } catch (IOException ex) {
             LoggingProxy logger2 = new LoggingProxy(epath);
             logger2.log(LoggingProxy.ERROR, "[---]Csv error." + ex.getMessage());
+        } catch (NullPointerException e) {
+            LoggingProxy logger3 = new LoggingProxy(epath);
+            logger3.log(LoggingProxy.ERROR, "[---]Csv error." + e.getMessage());
+        } catch (Exception e) {
+            LoggingProxy logger4 = new LoggingProxy(epath);
+            logger4.log(LoggingProxy.ERROR, "[---]Csv error." + e.getMessage());
         }
     }
 }

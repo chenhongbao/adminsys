@@ -34,44 +34,46 @@
         <column rank="25" label="第一志愿报考院校邮编" name="firstChoiceCollegePostalCode"/>
         <column rank="26" label="第一志愿报考院校地址" name="firstChoiceCollegeAddress"/>
         <column rank="27" label="第一志愿专业类别代码" name="firstChoiceSpecialityTypeCode"/>
+        <column rank="28" label="是否委培" name="weipeiType"/>
+        <column rank="29" label="报考学位类型" name="masterType"/>
 
 
-        <column rank="28" label="第一志愿报考专业名称" name="firstChoiceSpecialityName"/>
-        <column rank="29" label="第一志愿报考专业代码" name="firstChoiceSpecialityCode"/>
-        <column rank="30" label="第一志愿专业类别名称" name="firstChoiceSpecialityTypeName"/>
+        <column rank="30" label="第一志愿报考专业名称" name="firstChoiceSpecialityName"/>
+        <column rank="31" label="第一志愿报考专业代码" name="firstChoiceSpecialityCode"/>
+        <column rank="32" label="第一志愿专业类别名称" name="firstChoiceSpecialityTypeName"/>
 
 
-        <column rank="31" label="政治成绩" name="politicalPoint"/>
-        <column rank="32" label="政治科目代码" name="zzcode"/>
-        <column rank="33" label="英语成绩" name="englishPoint"/>
-        <column rank="34" label="英语科目代码" name="yycode"/>
-        <column rank="35" label="专业一名称" name="specialityOneName"/>
+        <column rank="33" label="政治成绩" name="politicalPoint"/>
+        <column rank="34" label="政治科目代码" name="zzcode"/>
+        <column rank="35" label="英语成绩" name="englishPoint"/>
+        <column rank="36" label="英语科目代码" name="yycode"/>
+        <column rank="37" label="专业一名称" name="specialityOneName"/>
 
-        <column rank="36" label="专业一成绩" name="specialityOnePoint"/>
-        <column rank="37" label="专业一科目代码" name="zyycode"/>
-        <column rank="38" label="专业二名称" name="specialityTwoName"/>
-        <column rank="39" label="专业二成绩" name="specialityTwoPoint"/>
-        <column rank="40" label="专业二科目代码" name="zyecode"/>
-        <column rank="41" label="总分" name="totalPoint"/>
-
-
-        <column rank="42" label="本科院校名称" name="graduateSchoolName"/>
-        <column rank="43" label="本科专业名称" name="graduateSpecialityName"/>
-        <column rank="44" label="本科专业类别名称" name="graduateSpecialityType"/>
-        <column rank="45" label="本科毕业时间" name="graduateTime"/>
-        <column rank="46" label="所获学位类别" name="bachelorType"/>
-        <column rank="47" label="获得学位时间" name="getBachelorTime"/>
+        <column rank="38" label="专业一成绩" name="specialityOnePoint"/>
+        <column rank="39" label="专业一科目代码" name="zyycode"/>
+        <column rank="40" label="专业二名称" name="specialityTwoName"/>
+        <column rank="41" label="专业二成绩" name="specialityTwoPoint"/>
+        <column rank="42" label="专业二科目代码" name="zyecode"/>
+        <column rank="43" label="总分" name="totalPoint"/>
 
 
-        <column rank="48" label="志愿一" name="adjustSpeciality"/>
-        <column rank="49" label="志愿二" name="adjustSpeciality2"/>
-        <column rank="50" label="志愿三" name="adjustSpeciality3"/>
-        <column rank="51" label="是否服从调剂" name="allowChangeSpeciality"/>
+        <column rank="44" label="本科院校名称" name="graduateSchoolName"/>
+        <column rank="45" label="本科专业名称" name="graduateSpecialityName"/>
+        <column rank="46" label="本科专业类别名称" name="graduateSpecialityType"/>
+        <column rank="47" label="本科毕业时间" name="graduateTime"/>
+        <column rank="48" label="所获学位类别" name="bachelorType"/>
+        <column rank="49" label="获得学位时间" name="getBachelorTime"/>
 
 
-        <column rank="52" label="注册时间" name="createTime"/>
-        <column rank="53" label="修改时间" name="register_info.updateTime"/>
-        <column rank="54" label="审核状态" name="status"/>
+        <column rank="50" label="志愿一" name="adjustSpeciality"/>
+        <column rank="51" label="志愿二" name="adjustSpeciality2"/>
+        <column rank="52" label="志愿三" name="adjustSpeciality3"/>
+        <column rank="53" label="是否服从调剂" name="allowChangeSpeciality"/>
+
+
+        <column rank="54" label="注册时间" name="createTime"/>
+        <column rank="55" label="修改时间" name="register_info.updateTime"/>
+        <column rank="56" label="审核状态" name="status"/>
 
     </csv>
 </config>
