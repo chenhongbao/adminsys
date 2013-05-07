@@ -10,8 +10,12 @@ file to point to that place.
         <!-- Counted in bytes -->
         <maxMemorySize value="104857600" />
         <maxFileSize value="5242880" />
-        <tempDiretory value="/tmp" />
-        <photoDirectory value="/upload/photo" />
-        <zipDirectory value="/upload/zip" />
+        <!--
+        Uploaded files shouldn't be saved under web root because it
+        will be deleted across different deployment.
+        -->
+        <tempDiretory value="/home/xjtuse/tmp" />
+        <photoDirectory value="/home/xjtuse/upload/photo" />
+        <zipDirectory value="/home/xjtuse/upload/zip" />
     </upload>
 </config>

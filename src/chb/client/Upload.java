@@ -84,11 +84,11 @@ public class Upload extends AServlet {
          * If the path is absolute path, uses it. But if it is a relative path,
          * we should append the real path of web server to its front.
          */
-        File tmpf = new File(tmpdir);
-        if(tmpf.isAbsolute() == false) {
+        File tmpf = null;
+        if(tmpdir.startsWith("/home/") == false) {
             tmpdir = getServletContext().getRealPath("/") + tmpdir;
-            tmpf = new File(tmpdir);
         }
+        tmpf = new File(tmpdir);
 
         /**
          * Create the directory if it does not exist.
@@ -185,7 +185,10 @@ public class Upload extends AServlet {
                          /**
                           * Save photo into the web server directory.
                           */
-                         photoDir = getServletContext().getRealPath("/") +  photoDir;
+                        if(photoDir.startsWith("/home/") == false)  {
+                            photoDir = getServletContext().getRealPath("/") +  photoDir;
+                        }
+
                          File target = new File(photoDir);
                          if(target.exists() == false) {
                              /**
@@ -237,7 +240,10 @@ public class Upload extends AServlet {
                          String zipDir = getSingleValueFromXML(xpath, p, doc).trim();
 
                          /* Save zip files into the web server directory. */
-                         zipDir = getServletContext().getRealPath("/") +  zipDir;
+                         if(zipDir.startsWith("/home/") == false) {
+                             zipDir = getServletContext().getRealPath("/") +  zipDir;
+                         }
+
                          File target = new File(zipDir);
                          if(target.exists() == false) {
                              /* Make directories in case they don't exist. */
