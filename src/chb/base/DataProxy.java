@@ -105,6 +105,10 @@ public class DataProxy {
         register_info_fields.add("firstChoiceCollegeAddress");
         register_info_fields.add("firstChoiceSpecialityTypeCode");
 
+        // Newly added columns according to Qin Lianying's requirement.
+        register_info_fields.add("masterType");
+        register_info_fields.add("weipeiType");
+
         /**
          * First choice speciality information.
          * id="firstChoiceSpecialityPanel"

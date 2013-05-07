@@ -106,8 +106,6 @@ public class CsvProxy extends DataProxy {
         String class_name = "com.mysql.jdbc.Driver";
         Connection conn = getConnection(url, class_name);
 
-        errorLogFile.log(LoggingProxy.ERROR, url);
-
         if (conn == null) {
             errorLogFile.log(LoggingProxy.ERROR, "[---]Can't get database connection. " +
                     "Returns null.");

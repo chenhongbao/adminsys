@@ -467,6 +467,22 @@ if(request.getAttribute("applicationInfo") != null) {
                     <option value="大专">大专</option></select>
                 </td>
             </tr>
+            <!-- Newly added according to Qin lianying's requirement. -->
+            <tr>
+                <td align="left"><span id="masterTypeLabel">学位类型</span></td>
+                <td align="left"><select name="masterType" id="masterType"
+                                         style="width:100%;">
+                    <option value="学术型">学术型</option>
+                    <option value="专业型">专业型</option></select>
+                </td>
+                <td align="left"><span id="weipeiLabel">是否委培</span></td>
+                <td align="left"><select name="weipeiType" id="weipeiType"
+                                         style="width:100%;">
+                    <option value="否">否</option>
+                    <option value="国防生">国防生</option>
+                    <option value="强军计划">强军计划</option></select>
+                </td>
+            </tr>
             <tr>
                 <td align="left"><span id="commentLabel">备注和自我评价</span><span style="color: #dc143c;">（不多于200字）</span></td>
                 <td align="left"></td>
@@ -818,8 +834,8 @@ if(request.getAttribute("applicationInfo") != null) {
             </tr>
             <tr style="height: 5px;">
             </tr>
-<!-- This sector might be useful, but currently applicants do not have these choices. -->
-<%--            <tr>
+
+            <tr>
                 <td style="width: 20%" align="left">
                     联合培养单位志愿
                 </td>
@@ -863,7 +879,7 @@ if(request.getAttribute("applicationInfo") != null) {
 
                     </select>
                 </td>
-            </tr>--%>
+            </tr>
             </tbody>
         </table>
         <br>

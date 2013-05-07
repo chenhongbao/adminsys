@@ -12,12 +12,14 @@
         <column rank="8" label="本科专业" name="graduateSpecialityName" />
         <column rank="9" label="报考专业" name="firstChoiceSpecialityName" />
         <column rank="10" label="报考类型" name="examType" />
-        <column rank="11" label="外语" name="englishPoint" />
-        <column rank="12" label="政治" name="politicalPoint" />
-        <column rank="13" label="专业课一名称" name="specialityOneName" />
-        <column rank="14" label="专业课一得分" name="specialityOnePoint" />
-        <column rank="15" label="专业课二名称" name="specialityTwoName" />
-        <column rank="16" label="专业课二得分" name="specialityTwoPoint" />
-        <column rank="17" label="总分" name="totalPoint" />
+        <column rank="11" label="报考学位类型" name="masterType"/>
+        <column rank="12" label="是否委培" name="weipeiType"/>
+        <column rank="13" label="外语" name="englishPoint" />
+        <column rank="14" label="政治" name="politicalPoint" />
+        <column rank="15" label="专业课一名称" name="specialityOneName" />
+        <column rank="16" label="专业课一得分" name="specialityOnePoint" />
+        <column rank="17" label="专业课二名称" name="specialityTwoName" />
+        <column rank="18" label="专业课二得分" name="specialityTwoPoint" />
+        <column rank="19" label="总分" name="totalPoint" />
     </csv>
 </config>

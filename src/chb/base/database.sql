@@ -112,6 +112,10 @@ CREATE TABLE IF NOT EXISTS `register_info` (
 
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 DEFAULT COLLATE=utf8_general_ci;
 
+/**
+* By Qin Lianying, we need two new columns.
+*/
+ALTER TABLE register_info ADD masterType VARCHAR(50), ADD weipeiType VARCHAR(50);
 
 /**
  * Create table for news.
