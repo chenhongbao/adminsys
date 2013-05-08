@@ -667,7 +667,7 @@ if(request.getAttribute("applicationInfo") != null) {
 <div id="specialityPanel" class="register">
     <fieldset>
         <legend>
-            申请专业方向
+            申请研究方向
         </legend>
         <br>
         <table>
